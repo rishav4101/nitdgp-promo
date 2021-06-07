@@ -1,10 +1,15 @@
 import React from 'react';
-import { Grid, Container } from '@material-ui/core';
+import { Container } from '@material-ui/core';
+import Grid from '@material-ui/core/Grid';
+import Card from '@material-ui/core/Card';
+import CardContent from '@material-ui/core/CardContent';
+import CardMedia from '@material-ui/core/CardMedia';
+import Typography from '@material-ui/core/Typography';
+import { alumniStyles } from "./Styles";
 
 const AlumniList = [
   {
     id: 0,
-    distinguished: true,
     name: "Mr. Subir Kumar Saha",
     dgp_year: "1983, B.E., Mechanical Engg",
     photo: "assets/images/alumni/Subir_Kumar_Saha.png",
@@ -12,7 +17,6 @@ const AlumniList = [
   },
   {
     id: 1,
-    distinguished: true,
     name: "Prof. Bikramjit Basu",
     dgp_year: "1995, B.E., Metullurgical and Materials Engg",
     photo: "assets/images/alumni/Bikramjit_Basu.png",
@@ -20,7 +24,6 @@ const AlumniList = [
   },
   {
     id: 2,
-    distinguished: true,
     name: "Mr. Jyoti Prasad Bhattacharya",
     dgp_year: "1982, B.E., Electrical Engg",
     photo: "assets/images/alumni/Jyoti_Prasad_Bhattacharya.png",
@@ -28,7 +31,6 @@ const AlumniList = [
   },
   {
     id: 3,
-    distinguished: false,
     name: "Dr. Mou Sen",
     dgp_year: "1996, B.E., Chemical Engg",
     photo: "assets/images/alumni/Mou_Sen.png",
@@ -36,7 +38,6 @@ const AlumniList = [
   },
   {
     id: 4,
-    distinguished: false,
     name: "Mr. Deepal Kanti Das",
     dgp_year: "2009, B.E., Mechanical Engg",
     photo: "assets/images/alumni/Deepal_Kanti_Das.png",
@@ -44,7 +45,6 @@ const AlumniList = [
   },
   {
     id: 5,
-    distinguished: false,
     name: "Prof. K.K. Sankaran",
     dgp_year: "1970, B.E., Metullurgical and Materials Engg.",
     photo: "assets/images/alumni/KK_Sankaran.png",
@@ -52,7 +52,6 @@ const AlumniList = [
   },
   {
     id: 6,
-    distinguished: false,
     name: "Dr. Poulami Das",
     dgp_year: "2012, B.E., Electronics and Communication Engg",
     photo: "assets/images/alumni/Poulami_Das.png",
@@ -60,7 +59,6 @@ const AlumniList = [
   },
   {
     id: 7,
-    distinguished: false,
     name: "Mr. Rajib Ghosh",
     dgp_year: "1997, B.E., Mechanical Engg",
     photo: "assets/images/alumni/Rajib_Ghosh.png",
@@ -68,7 +66,6 @@ const AlumniList = [
   },
   {
     id: 8,
-    distinguished: false,
     name: "Prof. Samrat Choudhury ",
     dgp_year: "1998, B.E., Metullurgical and Materials Engg.",
     photo: "assets/images/alumni/Samrat_Choudhury.png",
@@ -76,7 +73,6 @@ const AlumniList = [
   },
   {
     id: 9,
-    distinguished: false,
     name: "Mr. Subir Chowdhury",
     dgp_year: "1981, B.E., Mechanical Engg.",
     photo: "assets/images/alumni/Subir_Chowdhury.png",
@@ -84,7 +80,6 @@ const AlumniList = [
   },
   {
     id: 10,
-    distinguished: false,
     name: "Mr. Subrata Dutta",
     dgp_year: "1991, B.E., Civil Engg.",
     photo: "assets/images/alumni/Subrata_Dutta.png",
@@ -92,7 +87,6 @@ const AlumniList = [
   },
   {
     id: 11,
-    distinguished: false,
     name: "Prof. Tarashankar DebRoy",
     dgp_year: "1969, B.E., Metullurgical and Materials Engg",
     photo: "assets/images/alumni/Tarashankar_Debroy.png",
@@ -101,19 +95,44 @@ const AlumniList = [
 ]
 
 const Alumni = () => {
-
-  const alumni = AlumniList.map((alumni) => {
-    return (
-      <Grid key={alumni.id} item>
-        <img src={alumni.photo} />
-      </Grid>
-    );
-  });
+  const classes =  alumniStyles();
 
   return(
     <Container>
+      <h1 style={{ color: "#343f56", textTransform: "uppercase", margin: "20px", textAlign: "center" }}>
+        Meet Our Alumni
+      </h1>
       <Grid container spacing={3}>
-        {alumni}
+        {AlumniList.map((alumni) => {
+          return (
+            <Grid item key={alumni.id} xs={12} sm={6} md={4} lg={3}>
+              <Card className={classes.CardBody}>
+                  <CardMedia
+                    className={classes.CardImg}
+                    image={alumni.photo}
+                    title={alumni.name}>
+                    <div className={classes.CardImgText}>
+                      <Typography variant="h6" component="h6">
+                        {alumni.name}
+                      </Typography>
+                    </div>
+                  </CardMedia>
+                  <CardContent className={classes.CardOverlay}>
+                    <Typography variant="h6" component="h6">
+                      {alumni.name}
+                    </Typography>
+                    <Typography variant="body3" color="textSecondary" component="p">
+                      ({alumni.dgp_year})
+                    </Typography>
+                    <Typography variant="body1" color="textSecondary" component="p">
+                      {alumni.curr_post}
+                    </Typography>
+                  </CardContent>
+              </Card>
+            </Grid>
+          );
+        })
+        }
       </Grid>
     </Container>
   );

@@ -1,11 +1,14 @@
 import React from "react";
 import Navbar from "./components/Navbar";
-import Alumni from "./components/AlumniComponent";
+import Tabs from "./components/Tabs";
 
 export default function Home(){
     return(
         <>
-        <Alumni />
+        <div style={{maxWidth:1400, margin:"0px auto"}}>
+        <Navbar/>
+        <Tabs/>
+        </div>
         </>
     )
 }
