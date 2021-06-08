@@ -10,8 +10,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 import Text from './Text'
 
 const useStyles = makeStyles((theme) => ({
-
-
     heading: {
         textAlign: "center",
         color: "#343f56",
