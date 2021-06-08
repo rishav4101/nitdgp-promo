@@ -6,7 +6,7 @@ const data = [
         id: "1",
         name: "Army Of The Dead",
         link: "",
-        imgsrc: "https://source.unsplash.com/WLUHO9A_xik/",
+        imgsrc: "https://source.unsplash.com/WLUHO9A_xik/600x600",
         title: "Netflix Original Series"
     },
     {
