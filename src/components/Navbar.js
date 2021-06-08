@@ -1,11 +1,12 @@
 import React from "react";
 import { useStyles } from "./Styles";
-import JumpText from './Jump'
+
 
 export default function Navbar() {
   const classes = useStyles();
   return (
     <>
+
       <div
         className={classes.NavRoot}
 
@@ -16,6 +17,8 @@ export default function Navbar() {
           color: "#343f56", textTransform: "uppercase", margin: 0,
           textShadow: "3px 3px 0px #999"
         }}>national institute of technology, durgapur</h1>
+
+
       </div>
     </>
   );

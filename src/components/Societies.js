@@ -1,11 +1,11 @@
-import { useStyles } from "./Styles";
 import React from "react";
+import { useStyles } from "./Styles";
 
-export default function Infrastructure() {
+export default function Societies() {
   const classes = useStyles();
   return (
-    <div style={{ width: "100%", textAlign: "center" }}>
-      <h1 className={classes.SectionHead}>THE INFRASTRUCTURE</h1>
+    <div style={{ width: "100%" }}>
+      <h1 className={classes.SectionHead}>OUR societies</h1>
       <div
         style={{
           textAlign: "center",
