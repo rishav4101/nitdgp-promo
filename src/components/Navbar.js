@@ -1,5 +1,6 @@
 import React from "react";
 import { useStyles } from "./Styles";
+import PulseText from './PulseText'
 
 
 export default function Navbar() {
@@ -11,7 +12,7 @@ export default function Navbar() {
         className={classes.NavRoot}
 
       >
-        <img src="./nitdgp.png" alt="," style={{ height: 60, width: "auto" }} />
+        <PulseText />
                     &nbsp;&nbsp;&nbsp;
         <h1 style={{
           color: "#343f56", textTransform: "uppercase", margin: 0,

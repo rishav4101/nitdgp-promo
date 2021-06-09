@@ -4,4 +4,6 @@
     position: relative;
     height: auto;
     padding: "50px";
+    margin-top: 20px;
+    bottom:0;
   }
