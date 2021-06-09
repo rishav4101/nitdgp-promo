@@ -1,0 +1,44 @@
+.footer{
+    background-color: #343f56;
+    width: 100%;
+    position: relative;
+    height: auto;
+    padding: "50px";
+    margin-top: 20px;
+    bottom:0;
+  }
+/* .centered{
+  margin: 0 auto;
+  width: 1400px;
+} */
+.img-box{
+ justify-content: flex-start;
+
+}
+.info{
+  justify-content: flex-end;
+}
+.left-box{
+  text-align: left;
+}
+.right-box{
+  text-align: right;
+}
+@media only screen and (max-width:960px){
+  .img-box{
+    justify-content: center;
+   }
+   .info{
+     justify-content  : center;
+   }
+   .offset{
+     display: none ;
+   }
+   .left-box{
+    text-align: center;
+  }
+  .right-box{
+    text-align: center;
+  }
+}
+
