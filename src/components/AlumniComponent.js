@@ -103,11 +103,7 @@ const Alumni = () => {
         Meet Our Alumni
       </h1>
       <div
-        style={{
-          textAlign: "center",
-          width: "min(90%, 800px)",
-          margin: "10px auto",
-        }}
+        className={classes.SectionText}
       >
         Contrary to popular belief, Lorem Ipsum is not simply random text. It
         has roots in a piece of classical Latin literature from 45 BC, making it

@@ -1,5 +1,6 @@
 import { useStyles } from "./Styles";
 import React from "react";
+import Gallery from "./Gallery";
 
 export default function Infrastructure() {
   const classes = useStyles();
@@ -7,11 +8,7 @@ export default function Infrastructure() {
     <div style={{ width: "100%", textAlign: "center" }}>
       <h1 className={classes.SectionHead}>THE INFRASTRUCTURE</h1>
       <div
-        style={{
-          textAlign: "center",
-          width: "min(90%, 800px)",
-          margin: "10px auto",
-        }}
+        className={classes.SectionText}
       >
         Contrary to popular belief, Lorem Ipsum is not simply random text. It
         has roots in a piece of classical Latin literature from 45 BC, making it
@@ -26,6 +23,7 @@ export default function Infrastructure() {
         Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
         1.10.32.
       </div>
+      <Gallery/>
     </div>
   );
 }

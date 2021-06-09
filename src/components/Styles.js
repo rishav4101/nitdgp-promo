@@ -1,13 +1,6 @@
 import { makeStyles } from "@material-ui/core/styles";
 
-export const useStyles = makeStyles({
-  NavRoot: {
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    padding: "10px 0px",
-    borderBottom: "0px solid #343f56",
-  },
+export const useStyles = makeStyles((theme) => ({
   TabsHead: {
     zIndex: 1,
     display: "flex",
@@ -33,6 +26,11 @@ export const useStyles = makeStyles({
     border: "none",
     borderRadius: "7px",
     boxShadow: "0px 2px 10px #d2939c",
+    [theme.breakpoints.down("md")]: {
+      padding: "5px 15px",
+      margin: "5px",
+      fontSize: 15,
+    },
   },
   TabsBtn2: {
     display: "flex",
@@ -47,14 +45,56 @@ export const useStyles = makeStyles({
     border: "none",
     borderRadius: "7px",
     boxShadow: "0px 2px 10px #d2939c",
+    [theme.breakpoints.down("md")]: {
+      padding: "5px 15px",
+      margin: "5px",
+      fontSize: 15,
+    },
   },
   SectionHead: {
     color: "#343f56",
     textTransform: "uppercase",
     margin: "20px",
     textAlign: "center",
+    [theme.breakpoints.down("md")]: {
+      fontSize: 17,
+    },
   },
-});
+  SectionText: {
+    textAlign: "center",
+    width: "min(90%, 800px)",
+    margin: "10px auto",
+    [theme.breakpoints.down("md")]: {
+      fontSize: 14,
+    },
+  },
+
+  //Navbar
+  NavRoot: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    padding: "10px 0px",
+    borderBottom: "0px solid #343f56",
+    width: "90%",
+    margin: "0px auto",
+  },
+  NavLogo: {
+    height: 60,
+    width: "auto",
+    [theme.breakpoints.down("md")]: {
+      height: 40,
+    },
+  },
+  NavText: {
+    color: "#343f56",
+    textTransform: "uppercase",
+    margin: 0,
+    [theme.breakpoints.down("md")]: {
+      fontSize: 17,
+    },
+  },
+}));
 
 export const alumniStyles = makeStyles((theme) => ({
   CardBody: {
@@ -107,5 +147,16 @@ export const alumniStyles = makeStyles((theme) => ({
     textTransform: "uppercase",
     margin: "20px",
     textAlign: "center",
+    [theme.breakpoints.down("md")]: {
+      fontSize: 17,
+    },
+  },
+  SectionText: {
+    textAlign: "center",
+    width: "min(90%, 800px)",
+    margin: "10px auto",
+    [theme.breakpoints.down("md")]: {
+      fontSize: 14,
+    },
   },
 }));

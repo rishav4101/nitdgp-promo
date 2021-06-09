@@ -13,13 +13,10 @@ const useStyles = makeStyles((theme) => ({
     heading: {
         textAlign: "center",
         color: "#343f56",
-        padding: "20px 0px",
-        magrin: "20px",
-        textTransform: "uppercase"
+        padding: "20px 0px"
 
     },
     CardBody: {
-        borderRadius: "0",
         [theme.breakpoints.up('md')]: {
             height: "400px",
         },
@@ -35,7 +32,7 @@ const useStyles = makeStyles((theme) => ({
         },
 
         [theme.breakpoints.down('sm')]: {
-            height: "250px",
+            height: "320px",
 
         },
         [theme.breakpoints.up('md')]: {
@@ -45,8 +42,6 @@ const useStyles = makeStyles((theme) => ({
     CardImgText: {
         [theme.breakpoints.down('sm')]: {
             display: "none",
-            height: "10px"
-
         },
         [theme.breakpoints.up('md')]: {
             height: "10px",
@@ -69,19 +64,19 @@ export const Gallery = () => {
     return (
         <>
             <Container>
-                <h1 className={classes.heading}>
+                <h1 style={{ color: "#343f56", textTransform: "uppercase", margin: "20px", textAlign: "center" }}>
                     <Text />
                 </h1>
                 <Grid container spacing={1} style={{ background: "#f5e6ca" }}>
                     {data.map((item) => {
                         return (
 
-                            <Grid item key={item.id} xs={6} sm={4} md={6} lg={3} style={{ background: "#f5e6ca" }}>
+                            <Grid item key={item.id} xs={12} sm={6} md={4} lg={3} style={{ background: "#f5e6ca" }}>
                                 <div className={model ? "model open" : "model"}>
                                     <img src={Tempimg} />
                                     <CloseIcon onClick={() => setmodel(false)} />
                                 </div>
-                                <Card className={classes.CardBody} style={{ background: "#f5e6ca" }}>
+                                <Card className={classes.CardBody} style={{ background: "#f5e6ca", border: "none", outline: "none" }}>
                                     <div onClick={() => getImg(item.imgsrc)}>
                                         <CardMedia
                                             className={classes.CardImg}
