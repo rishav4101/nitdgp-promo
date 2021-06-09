@@ -72,7 +72,7 @@ export const Gallery = () => {
                 <h1 className={classes.heading}>
                     <Text />
                 </h1>
-                <Grid container spacing={1} style={{ background: "#f5e6ca" }}>
+                <Grid container spacing={3} style={{ background: "#f5e6ca" }}>
                     {data.map((item) => {
                         return (
 
