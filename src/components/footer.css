@@ -5,3 +5,22 @@
     height: auto;
     padding: "50px";
   }
+/* .centered{
+  margin: 0 auto;
+  width: 1400px;
+} */
+.img-box{
+ justify-content: flex-start;
+
+}
+.info{
+  justify-content: flex-end;
+}
+@media only screen and (max-width:900px){
+  .img-box{
+    justify-content: center;
+   }
+   .info{
+     justify-self: center;
+   }
+}
