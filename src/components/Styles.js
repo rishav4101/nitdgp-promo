@@ -11,7 +11,7 @@ export const useStyles = makeStyles((theme) => ({
     borderBottom: "0px solid #343f56",
     position: "sticky",
     top: "0",
-    backgroundColor: "#f5e6ca",
+    backgroundColor: "#fff7ef",
   },
   TabsBtn1: {
     display: "flex",
@@ -22,12 +22,12 @@ export const useStyles = makeStyles((theme) => ({
     fontSize: 17,
     textTransform: "uppercase",
     color: "#343f56",
-    backgroundColor: "#f5e6ca",
+    backgroundColor: "#fff7ef",
     border: "none",
     borderRadius: "7px",
     boxShadow: "0px 2px 10px #d2939c",
     [theme.breakpoints.down("md")]: {
-      padding: "5px 15px",
+      padding: "5px 25px",
       margin: "5px",
       fontSize: 15,
     },
@@ -46,7 +46,7 @@ export const useStyles = makeStyles((theme) => ({
     borderRadius: "7px",
     boxShadow: "0px 2px 10px #d2939c",
     [theme.breakpoints.down("md")]: {
-      padding: "5px 15px",
+      padding: "5px 25px",
       margin: "5px",
       fontSize: 15,
     },
