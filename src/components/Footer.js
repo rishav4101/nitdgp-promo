@@ -12,14 +12,12 @@ export default function Footer() {
             <div className="footer">
                 <div className="centered">
                     <Grid container >
-                        <Grid container md={1} sm={12}>
-
-                        </Grid>
+                        <Grid container md={1} sm={12} className="offset"> </Grid>
                         <Grid container md={3} sm={12} className="info">
                             <div style={{ margin: "40px", textAlign: "center" }}>
                                 <h6 style={{ fontWeight: "500", color: "white" }}>National institute of Technogy Durgapur</h6>
                                 <p style={{ color: "#9bb9d7" }}> Mahatma Gandhi Rd, A-Zone, Durgapur, </p>
-                                <p  style={{ color: "#9bb9d7" }}> West Bengal 713209 Ph: 0343 275 4680</p>
+                                <p style={{ color: "#9bb9d7" }}> West Bengal 713209 Ph: 0343 275 4680</p>
 
                             </div>
 
@@ -33,13 +31,11 @@ export default function Footer() {
                         <Grid container md={3} sm={6} className="img-box">
                             <div style={{ margin: "40px", textAlign: "center" }}>
                                 <a href="https://www.education.gov.in/hi"><img
-                                    src="./mhd-logo.png" class="img-fluid" alt="" width="220" 
+                                    src="./mhd-logo.png" class="img-fluid" alt="" width="220"
                                     style={{ backgroundColor: "#fff", padding: "2px", borderRadius: "5px" }}></img></a>
                             </div>
                         </Grid>
-                        <Grid container md={1} sm={12}>
-
-                        </Grid>
+                        <Grid container md={1} sm={12} className="offset"> </Grid>
                     </Grid>
                     <hr style={{ color: "white" }}></hr>
                     <Grid container >
@@ -53,22 +49,22 @@ export default function Footer() {
                         <Grid container md={6} sm={12} justify="center" direction="row">
                             <div style={{ margin: "10px" }}>
                                 <Grid item xs={3} justify="center">
-                                    <a href="mailto:registrar@admin.nitdgp.ac.in"><Mail color="primary" style={{ fontSize: 40 ,color:"#f5e6ca" }}></Mail></a>
+                                    <a href="mailto:registrar@admin.nitdgp.ac.in"><Mail color="primary" style={{ fontSize: 40, color: "#f5e6ca" }}></Mail></a>
                                 </Grid>
                             </div>
                             <div style={{ margin: "10px" }}>
                                 <Grid item xs={3} justify="center">
-                                    <a href=" https://www.linkedin.com/company/nitdurgapur/"><LinkedIn  style={{ fontSize: 40 ,color:"#f5e6ca" }}></LinkedIn></a>
+                                    <a href=" https://www.linkedin.com/company/nitdurgapur/"><LinkedIn style={{ fontSize: 40, color: "#f5e6ca" }}></LinkedIn></a>
                                 </Grid>
                             </div>
                             <div style={{ margin: "10px" }}>
                                 <Grid itemxs={3} justify="center">
-                                    <a href="https://www.youtube.com/channel/UC1svhZpnCQ1OoqYiMnhh-3g/featured"><YouTube  style={{ fontSize: 40,color:"#f5e6ca"  }}></YouTube></a>
+                                    <a href="https://www.youtube.com/channel/UC1svhZpnCQ1OoqYiMnhh-3g/featured"><YouTube style={{ fontSize: 40, color: "#f5e6ca" }}></YouTube></a>
                                 </Grid>
                             </div>
                             <div style={{ margin: "10px" }}>
                                 <Grid item xs={3} justify="center">
-                                    <a href=" https://www.facebook.com/watch/nitdgpofficial/"><Facebook  style={{ fontSize: 40,color:"#f5e6ca" }}></Facebook></a>
+                                    <a href=" https://www.facebook.com/watch/nitdgpofficial/"><Facebook style={{ fontSize: 40, color: "#f5e6ca" }}></Facebook></a>
                                 </Grid>
                             </div>
 
