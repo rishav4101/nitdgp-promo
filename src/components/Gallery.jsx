@@ -67,7 +67,7 @@ export const Gallery = () => {
                 <h1 style={{ color: "#343f56", textTransform: "uppercase", margin: "20px", textAlign: "center" }}>
                     <Text />
                 </h1>
-                <Grid container spacing={1} style={{ background: "#f5e6ca" }}>
+                <Grid container spacing={3} style={{ background: "#f5e6ca" }}>
                     {data.map((item) => {
                         return (
 
