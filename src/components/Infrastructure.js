@@ -1,6 +1,7 @@
 import { useStyles } from "./Styles";
 import React from "react";
 import Gallery from "./Gallery";
+import Datainfra from "./DataInfra"
 
 export default function Infrastructure() {
   const classes = useStyles();
@@ -23,7 +24,7 @@ export default function Infrastructure() {
         Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
         1.10.32.
       </div>
-      <Gallery/>
+      <Gallery data={Datainfra} />
     </div>
   );
 }

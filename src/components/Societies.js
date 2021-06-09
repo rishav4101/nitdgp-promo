@@ -1,6 +1,7 @@
 import React from "react";
 import { useStyles } from "./Styles";
 import Gallery from "./Gallery";
+import data from "./Data"
 
 export default function Societies() {
   const classes = useStyles();
@@ -23,7 +24,7 @@ export default function Societies() {
         Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
         1.10.32.
       </div>
-      <Gallery/>
+      <Gallery data={data} />
     </div>
   );
 }

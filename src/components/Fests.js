@@ -1,6 +1,7 @@
 import React from "react";
 import { useStyles } from "./Styles";
 import Gallery from "./Gallery";
+import datafest from "./Datafest";
 
 export default function Fests() {
   const classes = useStyles();
@@ -23,7 +24,7 @@ export default function Fests() {
         Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
         1.10.32.
       </div>
-      <Gallery/>
+      <Gallery data={datafest} />
     </div>
   );
 }
