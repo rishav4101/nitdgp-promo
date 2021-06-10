@@ -8,6 +8,10 @@ export default function Infrastructure() {
   return (
     <div style={{ width: "100%", textAlign: "center" }}>
       <h1 className={classes.SectionHead}>THE INFRASTRUCTURE</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/pvze9BPX36U"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+      </iframe>
       <div
         className={classes.SectionText}
       >

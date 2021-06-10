@@ -14,6 +14,7 @@ const useStyles = makeStyles((theme) => ({
     color: "#343f56",
     padding: "20px 0px",
   },
+
   CardBody: {
     border: "2px solid #343f56",
     borderRadius: 10,
@@ -33,6 +34,7 @@ const useStyles = makeStyles((theme) => ({
       aspectRatio: 1 / 1,
     },
   },
+
   CardImg: {
     position: "relative",
     margin: "0px auto",
