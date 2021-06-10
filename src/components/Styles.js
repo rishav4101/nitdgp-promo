@@ -19,6 +19,7 @@ export const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     padding: "10px 30px",
     margin: "5px 10px",
+    fontWeight: 600,
     fontSize: 17,
     textTransform: "uppercase",
     color: "#343f56",
@@ -38,6 +39,7 @@ export const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     padding: "10px 30px",
     margin: "5px 10px",
+    fontWeight: 600,
     fontSize: 17,
     textTransform: "uppercase",
     color: "#f5e6ca",
@@ -55,14 +57,16 @@ export const useStyles = makeStyles((theme) => ({
     color: "#343f56",
     textTransform: "uppercase",
     margin: "20px",
+    fontWeight: 600,
+    fontSize: 40,
     textAlign: "center",
     [theme.breakpoints.down("md")]: {
-      fontSize: 17,
+      fontSize: 25,
     },
   },
   SectionText: {
     textAlign: "center",
-    width: "min(90%, 800px)",
+    width: "min(90%, 900px)",
     margin: "10px auto",
     [theme.breakpoints.down("md")]: {
       fontSize: 14,
@@ -76,20 +80,25 @@ export const useStyles = makeStyles((theme) => ({
     alignItems: "center",
     padding: "10px 0px",
     borderBottom: "0px solid #343f56",
-    width: "90%",
+    width: "100%",
     margin: "0px auto",
+    marginBottom:"30px",
+    padding:"10px 20px",
+    backgroundColor:"#202838"
   },
   NavLogo: {
-    height: 60,
+    height: 50,
     width: "auto",
     [theme.breakpoints.down("md")]: {
-      height: 40,
+      height: 30,
     },
   },
   NavText: {
-    color: "#343f56",
+    color: "#fff7ef",
     textTransform: "uppercase",
     margin: 0,
+    fontWeight: 800,
+    fontSize: 30,
     [theme.breakpoints.down("md")]: {
       fontSize: 17,
     },
@@ -97,12 +106,47 @@ export const useStyles = makeStyles((theme) => ({
 
   //Video
   VideoComp: {
-    width: "min(95%, 500px)",
-    height: "min(56vw, 290px)",
+    width: "min(93%, 800px)",
+    height: "min(56vw, 410px)",
     margin: "0px auto",
     border: "2px solid #343f56",
     borderRadius: 10,
     boxShadow: "0px 2px 10px #d2939c",
+  },
+
+  //Line
+  Line: {
+    width: "min(900px, 80%)",
+    height: "2px",
+    backgroundColor: "#343f56",
+    margin: "40px auto",
+  },
+
+  //ContentCard
+  ContentCardWrap: {
+    width: "min(95%, 1000px)",
+    margin: "20px auto",
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    border: "2px solid #343f56",
+    borderRadius: 15,
+    boxShadow: "0px 2px 10px #d2939c",
+    [theme.breakpoints.down("xs")]: {
+      flexWrap:"wrap"
+    },
+    '&:nth-child(odd)':{
+      flexDirection:"row-reverse"
+    }
+  },
+  ContentCardImg: {
+    height: "110px",
+    margin: "20px 40px",
+  },
+  ContentCardText: {
+    width: "100%",
+    textAlign: "left",
+    padding: "20px",
   },
 }));
 
@@ -156,17 +200,27 @@ export const alumniStyles = makeStyles((theme) => ({
     color: "#343f56",
     textTransform: "uppercase",
     margin: "20px",
+    fontWeight: 600,
+    fontSize: 40,
     textAlign: "center",
     [theme.breakpoints.down("md")]: {
-      fontSize: 17,
+      fontSize: 25,
     },
   },
   SectionText: {
     textAlign: "center",
-    width: "min(90%, 800px)",
+    width: "min(90%, 900px)",
     margin: "10px auto",
     [theme.breakpoints.down("md")]: {
       fontSize: 14,
     },
+  },
+
+  //Line
+  Line: {
+    width: "min(900px, 80%)",
+    height: "2px",
+    backgroundColor: "#343f56",
+    margin: "40px auto",
   },
 }));

@@ -10,6 +10,7 @@ export default function Infrastructure() {
     <div style={{ width: "100%", textAlign: "center" }}>
       <h1 className={classes.SectionHead}>THE INFRASTRUCTURE</h1>
       <Video source="https://www.youtube.com/embed/pvze9BPX36U"/>
+      <br/>
       <div
         className={classes.SectionText}
       >
@@ -26,6 +27,7 @@ export default function Infrastructure() {
         Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
         1.10.32.
       </div>
+      <div className={classes.Line}></div>
       <Gallery data={Datainfra} />
     </div>
   );
