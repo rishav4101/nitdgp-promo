@@ -1,7 +1,5 @@
 import React from "react";
 import { useStyles } from "./Styles";
-import Gallery from "./Gallery";
-import datafest from "../data/Datafest";
 import Video from "./Video";
 import ContentCard from "./ContentCard";
 

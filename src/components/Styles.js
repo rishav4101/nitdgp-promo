@@ -78,7 +78,6 @@ export const useStyles = makeStyles((theme) => ({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    padding: "10px 0px",
     borderBottom: "0px solid #343f56",
     width: "100%",
     margin: "0px auto",
