@@ -94,6 +94,16 @@ export const useStyles = makeStyles((theme) => ({
       fontSize: 17,
     },
   },
+
+  //Video
+  VideoComp: {
+    width: "min(95%, 500px)",
+    height: "min(56vw, 290px)",
+    margin: "0px auto",
+    border: "2px solid #343f56",
+    borderRadius: 10,
+    boxShadow: "0px 2px 10px #d2939c",
+  },
 }));
 
 export const alumniStyles = makeStyles((theme) => ({

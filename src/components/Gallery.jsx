@@ -44,7 +44,6 @@ const useStyles = makeStyles((theme) => ({
       transform: "scale(1.1)",
     },
 
-
     [theme.breakpoints.down("md")]: {
       height: "200px",
       aspectRatio: 1 / 1,
@@ -66,13 +65,12 @@ const useStyles = makeStyles((theme) => ({
     left: 0,
     right: 0,
     textAlign: "center",
-    backgroundColor: "#fff7ef",
+    backgroundColor: "rgba(0,0,0,0.2)",
     [theme.breakpoints.down("sm")]: {
-      display: "none"
+      display: "none",
     },
     [theme.breakpoints.up("md")]: {
       height: "50px",
-
     },
   },
 }));
@@ -112,7 +110,7 @@ export const Gallery = (props) => {
                 style={{ background: "#fff7ef", textAlign: "center" }}
               >
                 <div className={model ? "model open" : "model"}>
-                  <img src={Tempimg} alt="." />
+                  <img style={{ objectFit: "cover" }} src={Tempimg} alt="." />
                   <CloseIcon onClick={() => setmodel(false)} />
                 </div>
                 <Card
@@ -135,7 +133,6 @@ export const Gallery = (props) => {
                         </Typography>
                       </div>
                     </CardMedia>
-
                   </div>
                 </Card>
               </Grid>
