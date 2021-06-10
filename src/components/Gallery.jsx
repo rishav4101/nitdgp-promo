@@ -6,7 +6,6 @@ import { Container, Typography } from "@material-ui/core";
 import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
 import CardMedia from "@material-ui/core/CardMedia";
-import Text from "./Text";
 
 const useStyles = makeStyles((theme) => ({
   heading: {
@@ -113,7 +112,7 @@ export const Gallery = (props) => {
                 style={{ background: "#fff7ef", textAlign: "center" }}
               >
                 <div className={model ? "model open" : "model"}>
-                  <img src={Tempimg} />
+                  <img src={Tempimg} alt="." />
                   <CloseIcon onClick={() => setmodel(false)} />
                 </div>
                 <Card

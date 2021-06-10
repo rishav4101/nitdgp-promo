@@ -1,6 +1,5 @@
 {
   "name": "nitdgp-promo",
-  "homepage": "http://rishav4101.github.io/nitdgp-promo",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -13,12 +12,9 @@
     "react-dom": "^17.0.2",
     "react-reveal": "^1.2.2",
     "react-scripts": "4.0.3",
-    "use-dencrypt-effect": "^1.0.2",
     "web-vitals": "^1.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -41,8 +37,5 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  },
-  "devDependencies": {
-    "gh-pages": "^3.2.0"
   }
 }

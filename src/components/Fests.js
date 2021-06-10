@@ -1,7 +1,7 @@
 import React from "react";
 import { useStyles } from "./Styles";
 import Gallery from "./Gallery";
-import datafest from "./Datafest";
+import datafest from "../data/Datafest";
 
 export default function Fests() {
   const classes = useStyles();

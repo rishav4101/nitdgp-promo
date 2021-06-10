@@ -1,7 +1,7 @@
 import { useStyles } from "./Styles";
 import React from "react";
 import Gallery from "./Gallery";
-import Datainfra from "./DataInfra"
+import Datainfra from "../data/DataInfra"
 
 export default function Infrastructure() {
   const classes = useStyles();

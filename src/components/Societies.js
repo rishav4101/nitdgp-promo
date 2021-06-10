@@ -1,7 +1,7 @@
 import React from "react";
 import { useStyles } from "./Styles";
 import Gallery from "./Gallery";
-import data from "./Data"
+import data from "../data/Data"
 
 export default function Societies() {
   const classes = useStyles();
