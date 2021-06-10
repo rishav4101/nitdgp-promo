@@ -6,7 +6,7 @@ import data from "./Data"
 export default function Societies() {
   const classes = useStyles();
   return (
-    <div style={{ width: "100%", textAlign: "center"  }}>
+    <div style={{ width: "100%", textAlign: "center" }}>
       <h1 className={classes.SectionHead}>OUR societies</h1>
       <iframe width="560" height="315" src="https://www.youtube.com/embed/pvze9BPX36U"
         title="YouTube video player" frameborder="0"
