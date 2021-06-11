@@ -6,7 +6,7 @@ export default function Navbar() {
   return (
     <>
       <div className={classes.NavRoot}>
-        <img src="./nitdgp.png" alt="," className={classes.NavLogo}/>
+        <img src="./nitdgp2.png" alt="," className={classes.NavLogo}/>
         &nbsp;&nbsp;&nbsp;
         <h1
           className={classes.NavText}

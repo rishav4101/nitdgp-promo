@@ -1,11 +1,12 @@
 .footer{
-    background-color: #343f56;
+    background-color: #202838;
     width: 100%;
     position: relative;
     height: auto;
     padding: "50px";
     margin-top: 20px;
     bottom:0;
+    position: relative;
   }
 /* .centered{
   margin: 0 auto;
@@ -24,6 +25,7 @@
 .right-box{
   text-align: right;
 }
+
 @media only screen and (max-width:960px){
   .img-box{
     justify-content: center;
@@ -41,4 +43,3 @@
     text-align: center;
   }
 }
-

@@ -119,7 +119,8 @@ const Alumni = () => {
         Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
         1.10.32.
       </div>
-      <Grid container spacing={3} style={{marginTop: "20px"}}>
+      <div className={classes.Line}></div>
+      <Grid container spacing={3}>
         {AlumniList.map((alumni) => {
           return (
             <Grid item key={alumni.id} xs={6} sm={4} md={3} lg={3}>

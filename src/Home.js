@@ -7,8 +7,9 @@ import Slider from "./components/Slider";
 export default function Home() {
     return (
         <>
+        <Navbar />
             <div style={{ maxWidth: 1400, margin: "0px auto" }}>
-                <Navbar />
+                
                 <Slider />
                 <Tabs />
             </div>

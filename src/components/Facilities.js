@@ -1,14 +1,12 @@
 import { useStyles } from "./Styles";
 import React from "react";
-import Gallery from "./Gallery";
-import Datainfra from "../data/DataInfra";
 import Video from "./Video";
 
-export default function Infrastructure() {
+export default function Facilities() {
   const classes = useStyles();
   return (
     <div style={{ width: "100%", textAlign: "center" }}>
-      <h1 className={classes.SectionHead}>THE INFRASTRUCTURE</h1>
+      <h1 className={classes.SectionHead}>THE FACILITIES</h1>
       <Video source="https://www.youtube.com/embed/pvze9BPX36U"/>
       <br/>
       <div
@@ -28,7 +26,6 @@ export default function Infrastructure() {
         1.10.32.
       </div>
       <div className={classes.Line}></div>
-      <Gallery data={Datainfra} />
     </div>
   );
 }
