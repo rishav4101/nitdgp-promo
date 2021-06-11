@@ -11,9 +11,9 @@ export default function Video(props) {
         style={{ borderRadius: 8 }}
         src={props.source}
         title="YouTube video player"
-        frameborder="0"
+        frameBorder="0"
         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-        allowfullscreen
+        allowFullScreen
       ></iframe>
     </div>
   );

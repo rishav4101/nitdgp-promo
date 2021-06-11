@@ -128,7 +128,7 @@ export const Gallery = (props) => {
                       title={item.name}
                     >
                       <div className={classes.CardImgText}>
-                        <Typography variant="h7" component="h7">
+                        <Typography variant="h6" component="h6">
                           {item.name}
                         </Typography>
                       </div>

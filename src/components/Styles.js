@@ -107,12 +107,18 @@ export const useStyles = makeStyles((theme) => ({
 }));
 
 export const alumniStyles = makeStyles((theme) => ({
+
   CardBody: {
+    width: "80%",
+    boxShadow: "0px 2px 10px #d2939c",
+    [theme.breakpoints.down("xs")]: {
+      width: "100%",
+    },
     [theme.breakpoints.up("md")]: {
-      height: "400px",
+      height: "258px",
       "&:hover": {
         "& $CardOverlay": {
-          transform: "translateY(-200px)",
+          transform: "translateY(-170px)",
         },
       },
     },
@@ -121,10 +127,11 @@ export const alumniStyles = makeStyles((theme) => ({
     position: "relative",
     width: "100%",
     [theme.breakpoints.down("sm")]: {
-      height: "440px",
+      aspectRatio: 1/1,
     },
     [theme.breakpoints.up("md")]: {
-      height: "390px",
+      height: "250px",
+      aspectRatio: 1/1,
     },
   },
   CardImgText: {
@@ -137,15 +144,13 @@ export const alumniStyles = makeStyles((theme) => ({
       bottom: 0,
       left: 0,
       right: 0,
-      height: "40px",
       textAlign: "center",
       backgroundColor: "#ffffff",
     },
   },
   CardOverlay: {
-    borderTop: "10px solid #f6404e",
     [theme.breakpoints.up("md")]: {
-      height: "200px",
+      height: "170px",
       backgroundColor: "#ffffff",
       textAlign: "center",
       transform: "translateY(0)",

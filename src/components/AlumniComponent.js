@@ -11,35 +11,36 @@ const AlumniList = [
   {
     id: 0,
     name: "Mr. Subir Kumar Saha",
-    dgp_year: "1983, B.E., Mechanical Engg",
+    dgp_year: "1983, B.E., Mechanical Engg.",
     photo: "assets/images/alumni/Subir_Kumar_Saha.PNG",
     curr_post: "Professor, IIT Delhi & Project Director, IHFC"
   },
   {
     id: 1,
     name: "Prof. Bikramjit Basu",
-    dgp_year: "1995, B.E., Metullurgical and Materials Engg",
+    dgp_year: "1995, B.E., Metullurgical and Materials Engg.",
     photo: "assets/images/alumni/Bikramjit_Basu.PNG",
     curr_post: "Professor, IISc Bangalore"
   },
   {
     id: 2,
     name: "Mr. Jyoti Prasad Bhattacharya",
-    dgp_year: "1982, B.E., Electrical Engg",
+    dgp_year: "1982, B.E., Electrical Engg.",
     photo: "assets/images/alumni/Jyoti_Prasad_Bhattacharya.PNG",
     curr_post: "Founder & MD, Deem-Roll Tech. Ltd. (Entrepreneur)"
   },
   {
     id: 3,
     name: "Dr. Mou Sen",
-    dgp_year: "1996, B.E., Chemical Engg",
+    dgp_year: "1996, B.E., Chemical Engg.",
     photo: "assets/images/alumni/Mou_Sen.PNG",
-    curr_post: "Joint Director, Directorate of MSME, Govt. of West Bengal"
+    curr_post: "Joint Director, Directorate of MSME, Govt. of West Bengal",
+    bcolor: "pink"
   },
   {
     id: 4,
     name: "Mr. Deepal Kanti Das",
-    dgp_year: "2009, B.E., Mechanical Engg",
+    dgp_year: "2009, B.E., Mechanical Engg.",
     photo: "assets/images/alumni/Deepal_Kanti_Das.PNG",
     curr_post: "Business Operations & Analytics Manager, Dell Technologies, Singapore"
   },
@@ -53,14 +54,14 @@ const AlumniList = [
   {
     id: 6,
     name: "Dr. Poulami Das",
-    dgp_year: "2012, B.E., Electronics and Communication Engg",
+    dgp_year: "2012, B.E., Electronics and Communication Engg.",
     photo: "assets/images/alumni/Poulami_Das.PNG",
-    curr_post: "Graduate Teching Assistant, Georgia Tech., Research Intern, Microsoft, USA"
+    curr_post: "Graduate Teaching Assistant, Georgia Tech., Research Intern, Microsoft, USA"
   },
   {
     id: 7,
     name: "Mr. Rajib Ghosh",
-    dgp_year: "1997, B.E., Mechanical Engg",
+    dgp_year: "1997, B.E., Mechanical Engg.",
     photo: "assets/images/alumni/Rajib_Ghosh.PNG",
     curr_post: "Co-founder and CRO, KornChain Ltd., London, UK"
   },
@@ -88,7 +89,7 @@ const AlumniList = [
   {
     id: 11,
     name: "Prof. Tarashankar DebRoy",
-    dgp_year: "1969, B.E., Metullurgical and Materials Engg",
+    dgp_year: "1969, B.E., Metullurgical and Materials Engg.",
     photo: "assets/images/alumni/Tarashankar_Debroy.PNG",
     curr_post: "Professor, Pennstate University, USA"
   }
@@ -118,29 +119,29 @@ const Alumni = () => {
         Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
         1.10.32.
       </div>
-      <Grid container spacing={3}>
+      <Grid container spacing={3} style={{marginTop: "20px"}}>
         {AlumniList.map((alumni) => {
           return (
-            <Grid item key={alumni.id} xs={12} sm={6} md={4} lg={3}>
+            <Grid item key={alumni.id} xs={6} sm={4} md={3} lg={3}>
               <Card className={classes.CardBody}>
                   <CardMedia
                     className={classes.CardImg}
                     image={alumni.photo}
                     title={alumni.name}>
                     <div className={classes.CardImgText}>
-                      <Typography variant="h6" component="h6">
+                      <Typography variant="body2" component="p">
                         {alumni.name}
                       </Typography>
                     </div>
                   </CardMedia>
-                  <CardContent className={classes.CardOverlay}>
-                    <Typography variant="h6" component="h6">
+                  <CardContent className={classes.CardOverlay} style={{borderTop: "8px solid #ed0747"}}>
+                    <Typography variant="body2" component="p">
                       {alumni.name}
                     </Typography>
-                    <Typography variant="body3" color="textSecondary" component="p">
-                      ({alumni.dgp_year})
+                    <Typography variant="caption" color="textSecondary" style={{lineHeight:1}} component="p">
+                      <small>({alumni.dgp_year})</small>
                     </Typography>
-                    <Typography variant="body1" color="textSecondary" component="p">
+                    <Typography variant="body3" style={{color: "blue", lineHeight:1, marginTop: "10px"}} component="p">
                       {alumni.curr_post}
                     </Typography>
                   </CardContent>

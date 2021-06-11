@@ -39,7 +39,7 @@ export default function Footer() {
                 <a href="https://www.education.gov.in/hi">
                   <img
                     src="./mhd-logo.png"
-                    class="img-fluid"
+                    className="img-fluid"
                     alt=""
                     width="220"
                     style={{
