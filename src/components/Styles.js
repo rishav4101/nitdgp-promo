@@ -152,8 +152,9 @@ export const useStyles = makeStyles((theme) => ({
 export const alumniStyles = makeStyles((theme) => ({
 
   CardBody: {
+    borderRadius:15,
     width: "80%",
-    boxShadow: "0px 2px 10px #d2939c",
+    boxShadow: "0px 2px 10px #d2939c !important",
     [theme.breakpoints.down("xs")]: {
       width: "100%",
     },

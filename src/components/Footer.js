@@ -44,23 +44,23 @@ export default function Footer() {
             <Grid container md={4} sm={6} justify="center">
               <div style={{ margin: "40px", textAlign: "center" }}>
                 <h6 style={{ fontWeight: "500", color: "white" }}>QuickLink</h6>
-                <a href="https://nitdgp.ac.in" target="_blank">
+                <a href="https://nitdgp.ac.in">
                   <p style={{ color: "#9bb9d7", margin:3 }}>NIT Durgapur</p>
                 </a>
-                <a href="https://csab.nic.in/webinfo/Page/Page?PageId=1&LangId=P" target="_blank">
+                <a href="https://csab.nic.in/webinfo/Page/Page?PageId=1&LangId=P">
                   <p style={{ color: "#9bb9d7", margin:3  }}>CSAB</p>
                 </a>
-                <a href="https://dasanit.org/dasa2021/" target="_blank">
+                <a href="https://dasanit.org/dasa2021/">
                   <p style={{ color: "#9bb9d7", margin:3  }}>DASA </p>
                 </a>
-                <a href="https://josaa.nic.in/WebInfo/Page/Page?PageId=1&LangId=P" target="_blank">
+                <a href="https://josaa.nic.in/WebInfo/Page/Page?PageId=1&LangId=P">
                   <p style={{ color: "#9bb9d7", margin:3  }}>JoSAA</p>
                 </a>
               </div>
             </Grid>
             <Grid container md={3} sm={6} className="img-box">
               <div className="right-box" style={{ margin: "40px 0px", width:"100%" }}>
-                <a href="https://www.education.gov.in/hi" target="_blank">
+                <a href="https://www.education.gov.in/hi">
                   <img
                     src="./mhd-logo.png"
                     className="img-fluid"
@@ -93,7 +93,7 @@ export default function Footer() {
             <Grid container md={6} sm={12} justify="center" direction="row">
               <div style={{ margin: "10px" }}>
                 <Grid item xs={3} justify="center">
-                  <a href="mailto:registrar@admin.nitdgp.ac.in" target="_blank">
+                  <a href="mailto:registrar@admin.nitdgp.ac.in">
                     <Mail
                       color="primary"
                       style={{ fontSize: 40, color: "#f5e6ca" }}
@@ -103,7 +103,7 @@ export default function Footer() {
               </div>
               <div style={{ margin: "10px" }}>
                 <Grid item xs={3} justify="center">
-                  <a href=" https://www.linkedin.com/company/nitdurgapur/" target="_blank">
+                  <a href=" https://www.linkedin.com/company/nitdurgapur/">
                     <LinkedIn
                       style={{ fontSize: 40, color: "#f5e6ca" }}
                     ></LinkedIn>
@@ -112,7 +112,7 @@ export default function Footer() {
               </div>
               <div style={{ margin: "10px" }}>
                 <Grid itemxs={3} justify="center">
-                  <a href="https://www.youtube.com/channel/UC1svhZpnCQ1OoqYiMnhh-3g/featured" target="_blank">
+                  <a href="https://www.youtube.com/channel/UC1svhZpnCQ1OoqYiMnhh-3g/featured">
                     <YouTube
                       style={{ fontSize: 40, color: "#f5e6ca" }}
                     ></YouTube>
@@ -121,7 +121,7 @@ export default function Footer() {
               </div>
               <div style={{ margin: "10px" }}>
                 <Grid item xs={3} justify="center">
-                  <a href=" https://www.facebook.com/watch/nitdgpofficial/" target="_blank">
+                  <a href=" https://www.facebook.com/watch/nitdgpofficial/" >
                     <Facebook
                       style={{ fontSize: 40, color: "#f5e6ca" }}
                     ></Facebook>
