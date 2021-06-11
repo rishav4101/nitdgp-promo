@@ -93,7 +93,7 @@ export default function Footer() {
             <Grid container md={6} sm={12} justify="center" direction="row">
               <div style={{ margin: "10px" }}>
                 <Grid item xs={3} justify="center">
-                  <a href="mailto:registrar@admin.nitdgp.ac.in">
+                  <a href="mailto:registrar@admin.nitdgp.ac.in" target="_blank">
                     <Mail
                       color="primary"
                       style={{ fontSize: 40, color: "#f5e6ca" }}
@@ -103,7 +103,7 @@ export default function Footer() {
               </div>
               <div style={{ margin: "10px" }}>
                 <Grid item xs={3} justify="center">
-                  <a href=" https://www.linkedin.com/company/nitdurgapur/">
+                  <a href=" https://www.linkedin.com/company/nitdurgapur/" target="_blank">
                     <LinkedIn
                       style={{ fontSize: 40, color: "#f5e6ca" }}
                     ></LinkedIn>
@@ -112,7 +112,7 @@ export default function Footer() {
               </div>
               <div style={{ margin: "10px" }}>
                 <Grid itemxs={3} justify="center">
-                  <a href="https://www.youtube.com/channel/UC1svhZpnCQ1OoqYiMnhh-3g/featured">
+                  <a href="https://www.youtube.com/channel/UC1svhZpnCQ1OoqYiMnhh-3g/featured" target="_blank">
                     <YouTube
                       style={{ fontSize: 40, color: "#f5e6ca" }}
                     ></YouTube>
@@ -121,7 +121,7 @@ export default function Footer() {
               </div>
               <div style={{ margin: "10px" }}>
                 <Grid item xs={3} justify="center">
-                  <a href=" https://www.facebook.com/watch/nitdgpofficial/">
+                  <a href=" https://www.facebook.com/watch/nitdgpofficial/" target="_blank">
                     <Facebook
                       style={{ fontSize: 40, color: "#f5e6ca" }}
                     ></Facebook>
