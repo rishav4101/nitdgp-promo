@@ -1,5 +1,5 @@
 .footer{
-    background-color: #343f56;
+    background-color: #202838;
     width: 100%;
     position: relative;
     height: auto;
@@ -18,7 +18,13 @@
 .info{
   justify-content: flex-end;
 }
-@media only screen and (max-width:900px){
+.left-box{
+  text-align: left;
+}
+.right-box{
+  text-align: right;
+}
+@media only screen and (max-width:960px){
   .img-box{
     justify-content: center;
    }
@@ -28,4 +34,11 @@
    .offset{
      display: none ;
    }
+   .left-box{
+    text-align: center;
+  }
+  .right-box{
+    text-align: center;
+  }
 }
+

@@ -118,6 +118,7 @@ const Alumni = () => {
         Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
         1.10.32.
       </div>
+      <div className={classes.Line}></div>
       <Grid container spacing={3}>
         {AlumniList.map((alumni) => {
           return (
