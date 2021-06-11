@@ -30,16 +30,16 @@ export default function Footer() {
               <div style={{ margin: "40px", textAlign: "center" }}>
                 <h6 style={{ fontWeight: "500", color: "white" }}>QuickLink</h6>
                 <a href="https://nitdgp.ac.in">
-                  <p style={{ color: "#9bb9d7" }}>website</p>
+                  <p style={{ color: "#9bb9d7", margin:3 }}>website</p>
                 </a>
                 <a href="https://csab.nic.in/webinfo/Page/Page?PageId=1&LangId=P">
-                  <p style={{ color: "#9bb9d7" }}>CSAB</p>
+                  <p style={{ color: "#9bb9d7", margin:3  }}>CSAB</p>
                 </a>
                 <a href="https://dasanit.org/dasa2021/">
-                  <p style={{ color: "#9bb9d7" }}>Dasa </p>
+                  <p style={{ color: "#9bb9d7", margin:3  }}>Dasa </p>
                 </a>
                 <a href="https://josaa.nic.in/WebInfo/Page/Page?PageId=1&LangId=P">
-                  <p style={{ color: "#9bb9d7" }}>JoSAA</p>
+                  <p style={{ color: "#9bb9d7", margin:3  }}>JoSAA</p>
                 </a>
               </div>
             </Grid>
