@@ -5,6 +5,7 @@ import Footer from "./components/Footer";
 import Slider from "./components/Slider";
 import { Router, Switch, Route } from "react-router-dom";
 import {createBrowserHistory} from 'history';
+import Team from "./Team";
 
 export default function Home() {
   return (
@@ -24,7 +25,7 @@ export default function Home() {
           <Route exact path="/team">
           <Navbar />
             <div style={{ maxWidth: 1400, margin: "0px auto" }}>
-              
+              <Team/>
             </div>
             <Footer />
           </Route>

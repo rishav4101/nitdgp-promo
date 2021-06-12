@@ -1,6 +1,7 @@
 import "./footer.css";
 import { Grid } from "@material-ui/core";
 import { Facebook, LinkedIn, Mail, YouTube, KeyboardArrowUp } from "@material-ui/icons";
+import {Link} from "react-router-dom";
 
 export default function Footer() {
   const scrollToTop = () =>{
@@ -85,9 +86,11 @@ export default function Footer() {
             <Grid container md={6} sm={12} justify="center">
               <div className="left-box" style={{ margin: "10px" }}>
                 {/* <p style={{ color: "#9bb9d7" }}>Copyright &copy; 2021 All Rights Reserved by NIT Durgapur</p> */}
+                <Link to="/team">
                 <p style={{ color: "#9bb9d7" }}>
-                  This site is developed by the students of NIT Durgapur.
+                  This site is developed by the Web Team.
                 </p>
+                </Link>
               </div>
             </Grid>
             <Grid container md={6} sm={12} justify="center" direction="row">
