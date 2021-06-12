@@ -1,14 +1,13 @@
 import "./footer.css";
 import { Grid } from "@material-ui/core";
 import { Facebook, LinkedIn, Mail, YouTube, KeyboardArrowUp } from "@material-ui/icons";
+import {Link} from "react-router-dom";
 
 export default function Footer() {
   const scrollToTop = () =>{
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
-      /* you can also use 'auto' behaviour
-         in place of 'smooth' */
     });
   };
   return (
@@ -43,8 +42,8 @@ export default function Footer() {
             </Grid>
             <Grid container md={4} sm={6} justify="center">
               <div style={{ margin: "40px", textAlign: "center" }}>
-                <h6 style={{ fontWeight: "500", color: "white" }}>QuickLink</h6>
-                <a href="https://nitdgp.ac.in">
+                <h6 style={{ fontWeight: "500", color: "white" }}>QuickLinks</h6>
+                <a href="https://nitdgp.ac.in" target="_blank">
                   <p style={{ color: "#9bb9d7", margin:3 }}>NIT Durgapur</p>
                 </a>
                 <a href="https://csab.nic.in/webinfo/Page/Page?PageId=1&LangId=P">
@@ -85,9 +84,11 @@ export default function Footer() {
             <Grid container md={6} sm={12} justify="center">
               <div className="left-box" style={{ margin: "10px" }}>
                 {/* <p style={{ color: "#9bb9d7" }}>Copyright &copy; 2021 All Rights Reserved by NIT Durgapur</p> */}
+                <Link to="/team">
                 <p style={{ color: "#9bb9d7" }}>
                   This site is developed by the students of NIT Durgapur.
                 </p>
+                </Link>
               </div>
             </Grid>
             <Grid container md={6} sm={12} justify="center" direction="row">
