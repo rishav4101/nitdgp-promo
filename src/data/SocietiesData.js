@@ -13,15 +13,15 @@ const SocietiesData = [
     },
     {
         id: "3",
-        imgsrc: "assets/images/societies/DC.png",
+        imgsrc: "assets/images/societies/DC.jpeg",
         text: "Dance Club is the official dance club of Nitdgp. We not only perform in Independence Day, Republic Day and other college fests but also participate in inter college fests like spring fest(iitkgp) and carpe diem(iim Calcutta) and have brought medals for our college. We believe in diversity hence we support and perform all dance forms.",
         link: "https://www.facebook.com/darpan.nitdgp/"
     },
     {
         id: "4",
         imgsrc: "assets/images/societies/debsoc.png",
-        text: " The Debating Society is the official debating club of NIT Durgapur. At its core, this club is an ideological interest group that aims to promote the culture of debating on campus and remove the phobia associated with public speaking. We work with a mission to encourage the youth to actively involve themselves in issues concerning social interest and upsurge, and to make them articulate enough to present their opinion in a coherent and logical manner. The club also conducts workshops and intra-college debates like Asian Parliamentary Debate and Oxford Union Debate to help the students develop confidence to voice their opinion on a bigger platform and subsequently represent NIT Durgapur in various debating and public speaking competitions across the country. Apart from debates our flagships events like Kill Code, Take de Bait, Icebreaker and Empire witness the largest turnout among college events. Where we differ from most other debating clubs across a wide range of institutions across the country is that we focus on incorporating tech to our practices as well.",
-        link: "https://m.facebook.com/debatingsociety3103.nitd/?ref=bookmarks"
+        text: "The Debating Society is the official debating club of NIT Durgapur. The core ideology of this club aims to promote the culture of debating and public speaking on campus. The club also conducts workshops and intra-college debates like Asian Parliamentary Debate and Oxford Union Debate to help the students develop confidence and subsequently represent NIT Durgapur in various debating and public speaking competitions across the country. Apart from debates our flagships events like Kill Code, Take de Bait, Icebreaker and Empire witnessed the largest turnout among college events. We focus on incorporating tech into our practices, which sets us apart from most other debating clubs across a wide range of institutions.",
+        link: "http://www.debsocnitdgp.in"
     },
     {
         id: "5",
@@ -56,13 +56,13 @@ const SocietiesData = [
     {
         id: "10",
         imgsrc: "assets/images/societies/iste.png",
-        text: "The Indian Society for Technical Education(ISTE) is the leading National Professional non-profit making Society for the Technical Education System in our country with the motto of Career Development of Teachers and Personality Development of Students and overall development of our Technical Education System operating in association with All India Council for Technical Education (AICTE) and other International Projects.At present,ISTE has a very large and an effective membership base consisting of more than 1,02,985 Life Members,5,54,094 Student Members,2410 Institutional Members from IITs,NITs,IISc etc and 1322 Students’ Chapters.",
+        text: "The Indian Society for Technical Education(ISTE) is the leading National Professional non-profit making Society for the Technical Education System in our country with the motto of Career Development of Teachers and Personality Development of Students and overall development of our Technical Education System operating in association with All India Council for Technical Education (AICTE) and other International Projects.",
         link:"http://istenitdgp.com/"
     },
     {
         id: "11",
         imgsrc: "assets/images/societies/lc.png",
-        text:"Literary Circle is the official literary club of NIT Durgapur, which gives the college an extra dimension of creative expression in the midst of technical unilateralism. This club conducts Verve, the Literary cum Youth Festival of the college and the biggest of its kind in eastern India having successfully pulled off 14 editions of the same. Among other activities, the club is reputed for hosting the inter-college NITMUN, publishing annual magazine Deja Vu and YearBook and organising OpenMic and Literati year round. Like our FB pages- Literary Circle: https://www.facebook.com/lcnitdgp/ NITMUN: https://www.facebook.com/nitmun.lcnitd/ Verve: https://www.facebook.com/verve.lcnitd/",
+        text:"Literary Circle is the official literary club of NIT Durgapur, which gives the college an extra dimension of creative expression in the midst of technical unilateralism. This club conducts Verve, the Literary cum Youth Festival of the college and the biggest of its kind in eastern India having successfully pulled off 14 editions of the same. Among other activities, the club is reputed for hosting the inter-college NITMUN, publishing annual magazine Deja Vu and YearBook and organising OpenMic and Literati year round.",
         link:"http://www.lcnitd.com/"
     },
     {
@@ -79,8 +79,8 @@ const SocietiesData = [
     },
     {
         id: "14",
-        imgsrc: "assets/images/societies/prakriti.jpg",
-        text:"We the People of Prakriti- The Environmental Club of NIT Durgapur, strive to make a difference and inculcate the seed of awareness and action in the minds of prospective engineers to make this environment a sustainable place for every living being. Our motto is to change the notion that Engineers do not care for environment into making every individual on campus, a GreenEngineer, who minimizes the risk of pollution that might be caused with new inventions or breakthrough researches in technology. As a club, we imbibe to the values our Mother Nature has taught us: Perseverance, Sustenance and Progress. Right from its rootage, Team Prakriti has made true those envisions of the founders of our club and crossed many milestones ever since its onset. We conduct our events throughout the year, reminding and awaking the slumbered minds, the importance of environment and its preservation.",
+        imgsrc: "assets/images/societies/prakriti.png",
+        text:"We the People of Prakriti- The Environmental Club of NIT Durgapur, strive to make a difference and inculcate the seed of awareness and action in the minds of prospective engineers to make this environment a sustainable place for every living being. Our motto is to change the notion that Engineers do not care for environment into making every individual on campus, a GreenEngineer, who minimizes the risk of pollution that might be caused with new inventions or breakthrough researches in technology.",
         link:"http://www.prakriti.in.net",
     },
     {
@@ -91,14 +91,14 @@ const SocietiesData = [
     },
     {
         id: "16",
-        imgsrc: "assets/images/societies/radionitroz.jpg",
-        text:" It is a 24/7 internet radio station which plays a mix of hindi and english songs and can be tuned at myradiostream.com/nitroz . Also, the listeners can listen to songs of their interest and dedicate to their loved ones from 10:00 pm - 12:00 am during the weekdays! Radio Station of NIT Durgapur, Radio Nitroz with the tagline Masti ka dozz was formed in the year 2006-2007 by the students of NIT Durgapur. Radio Nitroz is the 3rd successful LAN/Internet based radio among all IITs and NITs. It is a matter of proud for team Nitroz as well as NIT Durgapur. The basic intention of the formation of this club or better say family was to communicate with the Aam Janta of the college, be a college media and fill the campus with bakar and fun. Team Nitroz has been very popular for radio shows on LAN and the live Dedications that it use to do for hours every night. There was a time when everyone used to tune into Radio Nitroz using VLC media player and put forward their dedications (songs) and messages (if any) for their loved ones. Not only online but team Nitroz also conducts offline events in association with various other clubs of the college. RN Jukebox, RN Xcite etc. are some offline activities where people participate in huge numbers with extravagant enthusiasm and take home with them some memorable prizes and goodies.",
+        imgsrc: "assets/images/societies/rn.jpg",
+        text:" It is a 24/7 internet radio station which plays a mix of hindi and english songs and can be tuned at myradiostream.com/nitroz . Also, the listeners can listen to songs of their interest and dedicate to their loved ones from 10:00 pm - 12:00 am during the weekdays! Radio Station of NIT Durgapur, Radio Nitroz with the tagline Masti ka dozz was formed in the year 2006-2007 by the students of NIT Durgapur. Radio Nitroz is the 3rd successful LAN/Internet based radio among all IITs and NITs. It is a matter of proud for team Nitroz as well as NIT Durgapur.",
         link: "https://sites.google.com/view/radionitrozmastikadoz/"
     },
     {
         id: "17",
         imgsrc: "assets/images/societies/recursion.jpg",
-        text:"RECursion NIT Durgapur is an initiative to embolden the budding coding minds through regular Code Classes, robust coding competitions and geeky sessions. Pioneered by a faction of enthusiasts in 2014, RECursion has continued to evolve ever since. Besides a fancy placement package, we seek to ameliorate participation in programming competitions like ACM ICPC etc.Our dynamic panel is invariably available to sort any techie doubts and cultivate positivity in you. We intend to create an intriguing ambience where coding is more of a mental sport and after every green tick, the Coder in you gets bigger and wittier. So if you have those bits hovering over your head 24*7, RECursion is your Solution!",
+        text:"RECursion NIT Durgapur is an initiative to embolden the budding coding minds through regular Code Classes, robust coding competitions and geeky sessions. Pioneered by a faction of enthusiasts in 2014, RECursion has continued to evolve ever since. Besides a fancy placement package, we seek to ameliorate participation in programming competitions like ACM ICPC etc.Our dynamic panel is invariably available to sort any techie doubts and cultivate positivity in you. We intend to create an intriguing ambience where coding is more of a mental sport and after every green tick, the Coder in you gets bigger and wittier.",
         link:"http://www.recursionnitd.in/"
     },
     {

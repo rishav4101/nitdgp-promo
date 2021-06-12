@@ -123,6 +123,7 @@ export const useStyles = makeStyles((theme) => ({
 
   //ContentCard
   ContentCardWrap: {
+    textDecoration:"none",
     width: "min(95%, 1000px)",
     margin: "20px auto",
     display: "flex",
@@ -136,7 +137,8 @@ export const useStyles = makeStyles((theme) => ({
     },
     '&:nth-child(odd)':{
       flexDirection:"row-reverse"
-    }
+    },
+    color:"#343f56"
   },
   ContentCardImg: {
     height: 130,
@@ -146,6 +148,7 @@ export const useStyles = makeStyles((theme) => ({
     borderRadius:20
   },
   ContentCardText: {
+    textDecoration:"none",
     width: "100%",
     textAlign: "left",
     padding: "20px",

@@ -29,7 +29,7 @@ export default function Societies() {
       </div>
       <div className={classes.Line}></div>
       {SocietiesData?.map((club) => (
-        <ContentCard text={club.text} source={club.imgsrc} />
+          <ContentCard text={club.text} source={club.imgsrc} link={club.link}/>
       ))}
     </div>
   );
