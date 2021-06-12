@@ -9,38 +9,67 @@ const useStyles = makeStyles((theme)=>({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    position: "relative",
-    height: "300px",
     [theme.breakpoints.down("sm")]: {
       flexDirection: "column",
+      width: "90%"
     },
     [theme.breakpoints.up("md")]: {
-      border: "3px solid",
+      margin: "80px auto",
+      //border: "3px solid",
       borderRadius:"50px 0px",
+      backgroundColor: "#343f56",
+      color: "white",
       padding:0,
+      position: "relative",
+      height: "300px",
     },
   },
   img: {
-    height:"100%",
-    aspectRatio: 1/1,
-    border: "none",
-    borderRadius:"50px 0px 0px 0px",
+    [theme.breakpoints.down("sm")]: {
+      height: "200px",
+      aspectRatio: 1/1,
+      borderRadius:"50%",
+      marginTop: "10px",
+      zIndex: 1
+    },
+    [theme.breakpoints.up("md")]: {
+      height:"100%",
+      aspectRatio: 1/1,
+      border: "none",
+      borderRadius:"50px 0px 0px 0px",
+    }
   },
   text: {
-    marginLeft: "20px",
-    marginTop: "30px",
-    padding: "20px",
-    marginBottom: "20px",
-    fontSize: "14px",
-    fontStyle: "italic"
+    fontStyle: "italic",
+    [theme.breakpoints.down("sm")]: {
+      //border: "3px solid transparent",
+      borderRadius:"50px 0px",
+      backgroundColor: "#343f56",
+      color: "white",
+      marginTop: "-100px",
+      padding:"20px",
+      paddingTop: "110px",
+      fontSize: "12px",
+      textAlign:"center",
+    },
+    [theme.breakpoints.up("md")]: {
+      padding: "20px",
+      marginLeft: "20px",
+      marginTop: "30px",
+      marginBottom: "20px",
+      fontSize: "14px",
+    }
   },
   head: {
+    [theme.breakpoints.up("md")]: {
     backgroundColor: "#fff7ef",
     position:"absolute",
-    top:"-15px",
+    top:"-10px",
     right:"40px",
     width:"250px",
     textAlign:"center",
+    color: "black",
+    }
   }
 }));
 

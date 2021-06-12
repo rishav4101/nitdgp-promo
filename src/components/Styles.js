@@ -123,6 +123,7 @@ export const useStyles = makeStyles((theme) => ({
 
   //ContentCard
   ContentCardWrap: {
+    textDecoration:"none",
     width: "min(95%, 1000px)",
     margin: "20px auto",
     display: "flex",
@@ -136,24 +137,52 @@ export const useStyles = makeStyles((theme) => ({
     },
     '&:nth-child(odd)':{
       flexDirection:"row-reverse"
-    }
+    },
+    color:"#343f56"
   },
   ContentCardImg: {
-    height: "110px",
+    height: 130,
+    width:130,
     margin: "20px 40px",
+    objectFit:"contain",
+    borderRadius:20
   },
   ContentCardText: {
+    textDecoration:"none",
     width: "100%",
     textAlign: "left",
     padding: "20px",
   },
+
+  //TeamCard
+  TeamCardWrap:{
+    width:300,
+    textAlign:"center",
+    margin:20,
+    border: "2px solid #343f56",
+    borderRadius: 15,
+    boxShadow: "0px 2px 10px #d2939c",
+  },
+  TeamImg:{
+    width:200,
+    height:"auto",
+    borderRadius:"50%",
+    margin:"20px"
+  },
+  TeamTitle:{
+    fontSize:23,
+    fontWeight: 600,
+    margin:20,
+    color:"#343f56"
+  }
 }));
 
 export const alumniStyles = makeStyles((theme) => ({
 
   CardBody: {
+    borderRadius:15,
     width: "80%",
-    boxShadow: "0px 2px 10px #d2939c",
+    boxShadow: "0px 2px 10px #d2939c !important",
     [theme.breakpoints.down("xs")]: {
       width: "100%",
     },
