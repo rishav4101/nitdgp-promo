@@ -31,6 +31,11 @@ const useStyles = makeStyles((theme) => ({
     [theme.breakpoints.up("md")]: {
       height: "280px",
       aspectRatio: 1 / 1,
+      "&:hover": {
+        "& $CardImgText": {
+          display: "block",
+        },
+      },
     },
   },
 
@@ -58,21 +63,24 @@ const useStyles = makeStyles((theme) => ({
     },
   },
   CardImgText: {
-    fontWeight: "800",
+    padding: "5px 0px",
     position: "absolute",
     display: "block",
     bottom: 0,
     left: 0,
     right: 0,
     textAlign: "center",
-    backgroundColor: "rgba(0,0,0,0.2)",
+
     [theme.breakpoints.down("sm")]: {
-      display: "none",
+      backgroundColor: "rgba(0, 0, 0, 0.5)",
+      color: "white",
     },
     [theme.breakpoints.up("md")]: {
-      height: "50px",
+      backgroundColor: "#ffffff",
+      height: "40px",
+      display: "none",
     },
-  },
+    },
 }));
 
 export const Gallery = (props) => {
@@ -128,7 +136,7 @@ export const Gallery = (props) => {
                       title={item.name}
                     >
                       <div className={classes.CardImgText}>
-                        <Typography variant="h6" component="h6">
+                        <Typography style={{lineHeight: 1}} variant="caption" component="p">
                           {item.name}
                         </Typography>
                       </div>

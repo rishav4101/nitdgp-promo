@@ -7,8 +7,6 @@ export default function Footer() {
     window.scrollTo({
       top: 0,
       behavior: 'smooth'
-      /* you can also use 'auto' behaviour
-         in place of 'smooth' */
     });
   };
   return (
@@ -43,7 +41,7 @@ export default function Footer() {
             </Grid>
             <Grid container md={4} sm={6} justify="center">
               <div style={{ margin: "40px", textAlign: "center" }}>
-                <h6 style={{ fontWeight: "500", color: "white" }}>QuickLink</h6>
+                <h6 style={{ fontWeight: "500", color: "white" }}>QuickLinks</h6>
                 <a href="https://nitdgp.ac.in" target="_blank">
                   <p style={{ color: "#9bb9d7", margin:3 }}>NIT Durgapur</p>
                 </a>
