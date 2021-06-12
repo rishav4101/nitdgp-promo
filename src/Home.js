@@ -3,17 +3,34 @@ import Navbar from "./components/Navbar";
 import Tabs from "./components/Tabs";
 import Footer from "./components/Footer";
 import Slider from "./components/Slider";
+import { Router, Switch, Route } from "react-router-dom";
+import {createBrowserHistory} from 'history';
 
 export default function Home() {
-    return (
-        <>
-        <Navbar />
+  return (
+    <>
+      <Router history={createBrowserHistory()}>
+        <Switch>
+        
+          <Route exact path="/">
+            <Navbar />
             <div style={{ maxWidth: 1400, margin: "0px auto" }}>
-                
-                <Slider />
-                <Tabs />
+              <Slider />
+              <Tabs />
             </div>
-            <Footer/>
-        </>
-    )
+            <Footer />
+          </Route>
+
+          <Route exact path="/team">
+          <Navbar />
+            <div style={{ maxWidth: 1400, margin: "0px auto" }}>
+              
+            </div>
+            <Footer />
+          </Route>
+          
+        </Switch>
+      </Router>
+    </>
+  );
 }

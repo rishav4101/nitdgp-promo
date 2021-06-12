@@ -2,6 +2,7 @@ import React from "react";
 import { useStyles } from "./Styles";
 import Video from "./Video";
 import ContentCard from "./ContentCard";
+import SocietiesData from "../data/SocietiesData";
 
 export default function Societies() {
   const classes = useStyles();
@@ -27,20 +28,9 @@ export default function Societies() {
         1.10.32.
       </div>
       <div className={classes.Line}></div>
-      <ContentCard text="Contrary to popular belief, Lorem Ipsum is not simply random text. It
-        has roots in a piece of classical Latin literature from 45 BC, making it
-        over 2000 years old. Richard McClintock, a Latin professor at
-        Hampden-Sydney College in Virginia, looked up one of the more obscure
-        Latin words, consectetur, from a Lorem Ipsum passage, and going through
-        the cites of the word in classical literature, discovered the
-        undoubtable source. " source="./nitdgp.png" />
-      <ContentCard text="Contrary to popular belief, Lorem Ipsum is not simply random text. It
-        has roots in a piece of classical Latin literature from 45 BC, making it
-        over 2000 years old. Richard McClintock, a Latin professor at
-        Hampden-Sydney College in Virginia, looked up one of the more obscure
-        Latin words, consectetur, from a Lorem Ipsum passage, and going through
-        the cites of the word in classical literature, discovered the
-        undoubtable source. " source="./nitdgp.png" />
+      {SocietiesData?.map((club) => (
+        <ContentCard text={club.text} source={club.imgsrc} />
+      ))}
     </div>
   );
 }
