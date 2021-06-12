@@ -9,6 +9,7 @@ const useStyles = makeStyles((theme)=>({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
+    boxShadow: "0px 2px 10px #d2939c",
     [theme.breakpoints.down("sm")]: {
       flexDirection: "column",
       width: "90%"
@@ -67,8 +68,11 @@ const useStyles = makeStyles((theme)=>({
     top:"-10px",
     right:"40px",
     width:"250px",
-    textAlign:"center",
-    color: "black",
+    textAlign:"left",
+    color: "#343f56",
+    fontSize: 23,
+    fontWeight: 600,
+    padding: 10
     }
   }
 }));
@@ -79,7 +83,7 @@ return(
     <Container>
       <div className={classes.root}>
         <div className={classes.head}>
-          <h5>From the Director's Desk</h5>
+          From the Director's Desk
         </div>
         <img className={classes.img} alt="." src="assets/images/Director.jpg" />
         <p className={classes.text}>

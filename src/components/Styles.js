@@ -130,7 +130,6 @@ export const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     alignItems: "center",
     border: "2px solid #343f56",
-    backgroundColor:"#343f56",
     borderRadius: 15,
     boxShadow: "0px 2px 10px #d2939c",
     [theme.breakpoints.down("xs")]: {
@@ -154,7 +153,7 @@ export const useStyles = makeStyles((theme) => ({
     width: "100%",
     textAlign: "left",
     padding: "20px",
-    color: "white",
+    color: "#343f56",
   },
 
   //TeamCard
