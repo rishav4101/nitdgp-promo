@@ -139,8 +139,11 @@ export const useStyles = makeStyles((theme) => ({
     }
   },
   ContentCardImg: {
-    height: "110px",
+    height: 130,
+    width:130,
     margin: "20px 40px",
+    objectFit:"contain",
+    borderRadius:20
   },
   ContentCardText: {
     width: "100%",

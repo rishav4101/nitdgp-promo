@@ -43,7 +43,7 @@ export default function Footer() {
             </Grid>
             <Grid container md={4} sm={6} justify="center">
               <div style={{ margin: "40px", textAlign: "center" }}>
-                <h6 style={{ fontWeight: "500", color: "white" }}>QuickLink</h6>
+                <h6 style={{ fontWeight: "500", color: "white" }}>Quicklinks</h6>
                 <a href="https://nitdgp.ac.in">
                   <p style={{ color: "#9bb9d7", margin:3 }}>NIT Durgapur</p>
                 </a>

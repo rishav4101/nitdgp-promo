@@ -121,5 +121,4 @@ const SocietiesData = [
     },
 ]
 
-
 export default SocietiesData;
