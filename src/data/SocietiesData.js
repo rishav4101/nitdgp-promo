@@ -1,7 +1,8 @@
 const SocietiesData = [
     {
         id: "1",
-        imgsrc: "assets/images/infra/img1.jpg",
+        imgsrc: "assets/images/societies/CCA.png",
+        text: ""
     },
     {
         id: "2",
