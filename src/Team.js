@@ -7,12 +7,10 @@ export default function Team(){
     const classes = useStyles();
     return(
         <>
-        <h1 className={classes.SectionHead}>Our Team</h1>
+        <h1 className={classes.SectionHead}>Web Team</h1>
         <div style={{display:"flex", justifyContent:"center", alignItems:"center", flexWrap:"wrap"}}>
             {TeamData?.map((dat) => (
-                <a href={dat.link} style={{textDecoration:"none"}}>
-                <TeamCard img={dat.img} title={dat.title}/>
-                </a>
+                <TeamCard img={dat.img} title={dat.title} glink={dat.glink} inlink={dat.inlink}/>
             ))}
         </div>
         </>

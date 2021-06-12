@@ -86,7 +86,7 @@ export default function Footer() {
                 {/* <p style={{ color: "#9bb9d7" }}>Copyright &copy; 2021 All Rights Reserved by NIT Durgapur</p> */}
                 <Link to="/team">
                 <p style={{ color: "#9bb9d7" }}>
-                  This site is developed by the Web Team.
+                  This site is developed by the students of NIT Durgapur.
                 </p>
                 </Link>
               </div>

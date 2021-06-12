@@ -130,10 +130,12 @@ export const useStyles = makeStyles((theme) => ({
     justifyContent: "center",
     alignItems: "center",
     border: "2px solid #343f56",
+    backgroundColor:"#343f56",
     borderRadius: 15,
     boxShadow: "0px 2px 10px #d2939c",
     [theme.breakpoints.down("xs")]: {
-      flexWrap:"wrap"
+      flexWrap:"wrap",
+      width: "90%"
     },
     '&:nth-child(odd)':{
       flexDirection:"row-reverse"
@@ -152,13 +154,14 @@ export const useStyles = makeStyles((theme) => ({
     width: "100%",
     textAlign: "left",
     padding: "20px",
+    color: "white",
   },
 
   //TeamCard
   TeamCardWrap:{
-    width:300,
+    width:250,
     textAlign:"center",
-    margin:20,
+    margin:10,
     border: "2px solid #343f56",
     borderRadius: 15,
     boxShadow: "0px 2px 10px #d2939c",
@@ -167,12 +170,12 @@ export const useStyles = makeStyles((theme) => ({
     width:200,
     height:"auto",
     borderRadius:"50%",
-    margin:"20px"
+    margin:"10px"
   },
   TeamTitle:{
-    fontSize:23,
+    fontSize:20,
     fontWeight: 600,
-    margin:20,
+    margin:10,
     color:"#343f56"
   }
 }));

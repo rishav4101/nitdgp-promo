@@ -2,7 +2,7 @@ const SocietiesData = [
     {
         id: "1",
         imgsrc: "assets/images/societies/CCA.png",
-        text: "CCA, Centre for Cognitive Activities, is the focal point where convergence of all technical and scientific endeavours of the students materialises. As the technical gymkhana of the institute, this club is the revolution which bridges the gap between knowledge and application. Bulk of the extracurricular activities held in the college all the year round are organised by the CCA , with the objective of probing the dark recesses of human mind so that the grey cells are stimulated to create , conceptualise and evolve, triggering a rebellion of the new age mind against baseless conventions and meek acceptance.",
+        text: "Centre for Cognitive Activities, CCA, is the technical hub of the institute. The club nurtures technical, scientific and analytical thinking of students. It’s the oldest club of the institute and was the first to organize Aarohan, the annual Techno Management festival of NIT Durgapur, which is now the 2nd largest Techno Management fest of eastern India, presently conducted collectively by five clubs including CCA.The club aims to promote creativity and technical knowledge among students by conducting various fun events, interactive workshops lending a helping hand to turn one's fascination and dreams into reality. The five cells- Core cell, Robo Cell, Web Design & Creative Team (WDCT), Entrepreneurship Cell ( E-Cell ) and Research & Development Cell (R&D Cell) together ensure the smooth and better functioning of the club.",
         link: "https://www.ccanitd.in"
     },
     {
