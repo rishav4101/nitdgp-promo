@@ -105,18 +105,20 @@ export const Gallery = (props) => {
         >
           <Text />
         </h1> */}
-        <Grid container spacing={2} style={{ background: "#fff7ef" }}>
+        {/* <Grid container spacing={2} style={{ background: "#fff7ef" }}> */}
+        <div style={{display:"flex", justifyContent:"center", alignItems:"center", flexWrap:"wrap"}}>
           {props.data.map((item) => {
             return (
-              <Grid
-                item
-                key={item.id}
-                xs={6}
-                sm={4}
-                md={3}
-                lg={3}
-                style={{ background: "#fff7ef", textAlign: "center" }}
-              >
+              // <Grid
+              //   item
+              //   key={item.id}
+              //   xs={6}
+              //   sm={4}
+              //   md={3}
+              //   lg={3}
+              //   style={{ background: "#fff7ef", textAlign: "center" }}
+              // >
+              <div style={{margin:8}}>
                 <div className={model ? "model open" : "model"}>
                   <img style={{ objectFit: "cover" }} src={Tempimg} alt="." />
                   <CloseIcon onClick={() => setmodel(false)} />
@@ -143,10 +145,12 @@ export const Gallery = (props) => {
                     </CardMedia>
                   </div>
                 </Card>
-              </Grid>
+                </div>
+              // </Grid>
             );
           })}
-        </Grid>
+          </div>
+        {/* </Grid> */}
       </Container>
     </>
   );

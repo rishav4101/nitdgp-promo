@@ -73,6 +73,28 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
 
+  //SubSection 
+  SubSectionHead: {
+    color: "#343f56",
+    width: "min(90%, 800px)",
+    textTransform: "uppercase",
+    margin: "10px  auto",
+    fontWeight: 600,
+    fontSize: 30,
+    textAlign: "left",
+    [theme.breakpoints.down("md")]: {
+      fontSize: 20,
+    },
+  },
+  SubSectionText: {
+    textAlign: "left",
+    width: "min(90%, 800px)",
+    margin: "10px auto",
+    [theme.breakpoints.down("md")]: {
+      fontSize: 13,
+    },
+  },
+
   //Navbar
   NavRoot: {
     display: "flex",
