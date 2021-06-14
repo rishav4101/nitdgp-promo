@@ -6,6 +6,12 @@ const TeamData = [
         inlink:"https://www.linkedin.com/in/rishav4101/"
     },
     {
+        img:"https://avatars.githubusercontent.com/u/56390846?v=4",
+        title:"Ramiz Mollah",
+        glink:"https:/github.com/deadlycoder07",
+        inlink:"https://www.linkedin.com/in/ramiz-mollah/"
+    },
+    {
         img:"assets/images/team/ayush.jpg",
         title:"Ayush Pratap Singh",
         glink:"https://github.com/apsingh1843",
