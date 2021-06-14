@@ -9,15 +9,14 @@ const useStyles = makeStyles((theme)=>({
     display: "flex",
     justifyContent: "center",
     alignItems: "center",
-    boxShadow: "0px 2px 10px #d2939c",
     [theme.breakpoints.down("sm")]: {
       flexDirection: "column",
       width: "90%"
     },
     [theme.breakpoints.up("md")]: {
       margin: "80px auto",
-      //border: "3px solid",
       borderRadius:"50px 0px",
+      boxShadow: "0px 2px 10px #d2939c",
       backgroundColor: "#343f56",
       color: "white",
       padding:0,
@@ -43,8 +42,8 @@ const useStyles = makeStyles((theme)=>({
   text: {
     fontStyle: "italic",
     [theme.breakpoints.down("sm")]: {
-      //border: "3px solid transparent",
       borderRadius:"50px 0px",
+      boxShadow: "0px 2px 10px #d2939c",
       backgroundColor: "#343f56",
       color: "white",
       marginTop: "-100px",
@@ -62,17 +61,18 @@ const useStyles = makeStyles((theme)=>({
     }
   },
   head: {
+    fontSize: 23,
     [theme.breakpoints.up("md")]: {
     backgroundColor: "#fff7ef",
     position:"absolute",
     top:"-10px",
     right:"40px",
     width:"250px",
-    textAlign:"left",
     color: "#343f56",
-    fontSize: 23,
-    fontWeight: 600,
-    padding: 10
+    fontSize: 18,
+    fontWeight: 700,
+    textAlign:"center",
+    padding: 5
     }
   }
 }));
