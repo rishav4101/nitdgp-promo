@@ -32,12 +32,12 @@ const Datainfra = [
     {
         id: "7",
         name: "Student Activity Centre",
-        imgsrc: "assets/images/infra/img7.jpg"
+        imgsrc: "assets/images/infra/img7.jpeg"
     },
     {
         id: "8",
         name: "ECE Department",
-        imgsrc: "assets/images/infra/img8.jpg"
+        imgsrc: "assets/images/infra/img8.jpeg"
     },
 ]
 
