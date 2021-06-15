@@ -142,7 +142,7 @@ const Alumni = () => {
                     <Typography variant="caption" color="textSecondary" style={{lineHeight:1}} component="p">
                       <small>({alumni.dgp_year})</small>
                     </Typography>
-                    <Typography variant="body3" style={{color: "blue", lineHeight:1, marginTop: "10px"}} component="p">
+                    <Typography variant="body3" style={{color: "#343f56", lineHeight:1, marginTop: "10px"}} component="p">
                       {alumni.curr_post}
                     </Typography>
                   </CardContent>

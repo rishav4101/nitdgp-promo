@@ -87,8 +87,11 @@ export const Gallery = (props) => {
   const classes = useStyles();
   const [model, setmodel] = useState(false);
   const [Tempimg, setTempimg] = useState("");
-  const getImg = (imgsrc) => {
+  const [TempimgName, setTempimgName] = useState("");
+
+  const getImgDetail = (imgsrc,name) => {
     setTempimg(imgsrc);
+    setTempimgName(name);
     setmodel(true);
   };
 
@@ -119,8 +122,9 @@ export const Gallery = (props) => {
               //   style={{ background: "#fff7ef", textAlign: "center" }}
               // >
               <div style={{margin:8}}>
-                <div className={model ? "model open" : "model"}>
-                  <img style={{ objectFit: "cover" }} src={Tempimg} alt="." />
+                <div className={model ? "model open" : "model"} style={{display: "flex", flexDirection: 'column'}}>
+                  <img style={{ objectFit: "cover", height: "80vh", width: "80vh" }} src={Tempimg} alt="." />
+                  <h3>{TempimgName}</h3>
                   <CloseIcon onClick={() => setmodel(false)} />
                 </div>
                 <Card
@@ -131,7 +135,7 @@ export const Gallery = (props) => {
                     outline: "none",
                   }}
                 >
-                  <div onClick={() => getImg(item.imgsrc)}>
+                  <div onClick={() => getImgDetail(item.imgsrc,item.name)}>
                     <CardMedia
                       className={classes.CardImg}
                       image={item.imgsrc}

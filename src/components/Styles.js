@@ -73,17 +73,17 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
 
-  //SubSection 
+  //SubSection
   SubSectionHead: {
     color: "#343f56",
     width: "min(90%, 800px)",
     textTransform: "uppercase",
     margin: "10px  auto",
     fontWeight: 600,
-    fontSize: 30,
+    fontSize: 25,
     textAlign: "left",
     [theme.breakpoints.down("md")]: {
-      fontSize: 20,
+      fontSize: 18,
     },
   },
   SubSectionText: {
@@ -137,7 +137,7 @@ export const useStyles = makeStyles((theme) => ({
 
   //Line
   Line: {
-    width: "min(900px, 80%)",
+    width: "min(900px, 90%)",
     height: "2px",
     backgroundColor: "#343f56",
     margin: "40px auto",
