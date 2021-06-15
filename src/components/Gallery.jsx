@@ -3,7 +3,6 @@ import "./galstyle.css";
 import CloseIcon from "@material-ui/icons/Close";
 import { makeStyles } from "@material-ui/core";
 import { Container, Typography } from "@material-ui/core";
-import Grid from "@material-ui/core/Grid";
 import Card from "@material-ui/core/Card";
 import CardMedia from "@material-ui/core/CardMedia";
 

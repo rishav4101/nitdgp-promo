@@ -131,6 +131,11 @@ export default function Facilities() {
       </div>
       <div className={classes.Line}></div>
 
-</div>
+      <h1 className={classes.SubSectionHead}>POST OFFICE</h1>
+      <div className={classes.SubSectionText}>
+        Address: A-Zone, Durgapur, West Bengal 713209 Phone: 1800 11 2011 <br />
+      </div>
+      <div className={classes.Line}></div>
+    </div>
   );
 }

@@ -43,7 +43,7 @@ export default function Footer() {
             <Grid container md={4} sm={6} justify="center">
               <div style={{ margin: "40px", textAlign: "center" }}>
                 <h6 style={{ fontWeight: "500", color: "white" }}>QuickLinks</h6>
-                <a href="https://nitdgp.ac.in" target="_blank">
+                <a href="https://nitdgp.ac.in">
                   <p style={{ color: "#9bb9d7", margin:3 }}>NIT Durgapur</p>
                 </a>
                 <a href="https://csab.nic.in/webinfo/Page/Page?PageId=1&LangId=P">

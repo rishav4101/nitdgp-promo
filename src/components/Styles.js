@@ -189,9 +189,10 @@ export const useStyles = makeStyles((theme) => ({
   },
   TeamImg:{
     width:200,
-    height:"auto",
+    height:200,
     borderRadius:"50%",
-    margin:"10px"
+    margin:"10px",
+    objectFit: "cover"
   },
   TeamTitle:{
     fontSize:20,
