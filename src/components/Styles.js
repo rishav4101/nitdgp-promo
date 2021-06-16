@@ -210,6 +210,16 @@ export const useStyles = makeStyles((theme) => ({
     fontWeight: 600,
     margin:10,
     color:"#343f56"
+  },
+
+  //Facilities
+  FacImg:{
+    width: "min(300px, 100%)",
+    height:"min(200px, 100%)",
+    margin:"10px",
+    border: "2px solid #343f56",
+    borderRadius: 15,
+    boxShadow: "0px 2px 10px #d2939c",
   }
 }));
 

@@ -11,8 +11,7 @@ export default function Facilities() {
       <h3 className={classes.SubSectionHead}>187 ACRE LUSH GREEN CAMPUS</h3>
       <div className={classes.SubSectionText}>
         <div className={classes.SubDiv}>
-          <img src="assets/images/facilities/greenCampus.jpeg" alt="."
-            style={{width: 300, height: 200, borderRadius: 12, marginLeft: 15 }} />
+          <img src="assets/images/facilities/greenCampus.jpeg" alt="." className={classes.FacImg} />
           <p style={{marginTop: 10}}>The campus of NIT Durgapur is spread
           over a vast area of 187 Acre, comprising of various Academic buildings,
           Labs, Hostels, Faculty Quarters, Playgrounds and Gardens.</p>
@@ -23,8 +22,7 @@ export default function Facilities() {
       <h3 className={classes.SubSectionHead}>GUEST HOUSE</h3>
       <div className={classes.SubSectionText}>
         <div className={classes.SubDiv}>
-          <img src="assets/images/facilities/guestHouse.jpeg" alt="."
-            style={{width: 300, height: 200, borderRadius: 12, marginLeft: 15}} />
+          <img src="assets/images/facilities/guestHouse.jpeg" alt="." className={classes.FacImg} />
           <p style={{marginTop: 10}}>The Institute Guest House standing beside the Director's Bungalow serves
           to render hospitality to the Official and Non-official guests of the Institute.
           It is a unique double storied building with modern living facilities
@@ -38,13 +36,13 @@ export default function Facilities() {
       <h3 className={classes.SubSectionHead}>UTKARSH BHAWAN (HEFA)</h3>
       <div className={classes.SubSectionText}>
         <div className={classes.SubDiv}>
-          <div style={{textAlign: 'center'}}>
+          <div style={{width:"100%", textAlign: 'center'}}>
             <img src="assets/images/facilities/lab1.jpeg" alt="."
-              style={{width: 300, height: 200, borderRadius: 12, marginLeft: 15}} />
+              className={classes.FacImg} />
             <img src="assets/images/facilities/lab2.jpeg" alt="."
-              style={{width: 300, height: 200, borderRadius: 12, marginLeft: 15, marginTop: 10}} />
+              className={classes.FacImg} />
           </div>
-          <p>G + 10 Storied Central Research & Academic Laboratory Building. <br/>
+          <p style={{marginTop: 10}}>G + 10 Storied Central Research & Academic Laboratory Building. <br/>
           <b>Central Research Facility (CRF)</b> <br/>
           <ul style={{listStyle: "square", marginLeft: "30px"}}>
             <li>Physical Characterization Facility</li>
@@ -102,7 +100,7 @@ export default function Facilities() {
       <div className={classes.SubSectionText}>
         <div className={classes.SubDiv}>
           <img src="assets/images/infra/img7.jpeg" alt="."
-            style={{width: 300, height: 200, borderRadius: 12, marginLeft: 15}} />
+            className={classes.FacImg} />
           <p style={{marginTop: 10}}>The Student Activity Centre (SAC) is treated as one of the Central
           Facilities of the Institute with a mission to train the students in
           physical activities so as to enable them to face the complex societal
@@ -119,9 +117,9 @@ export default function Facilities() {
         <div className={classes.SubDiv}>
           <div style={{textAlign: 'center'}}>
             <img src="assets/images/facilities/ovals.jpeg" alt="."
-              style={{width: 300, height: 200, borderRadius: 12, marginLeft: 15}} />
+              className={classes.FacImg} />
             <img src="assets/images/facilities/lords.jpeg" alt="."
-              style={{width: 300, height: 200, borderRadius: 12, marginLeft: 15, marginTop: 10}} />
+              className={classes.FacImg} />
           </div>
           <p style={{marginTop: 10}}>The institute has two playgrounds, the impressive ‘Lords’ Football stadium and
           the central Sports ground ‘Oval’ where all the major games are organized
@@ -140,7 +138,7 @@ export default function Facilities() {
       <div className={classes.SubSectionText}>
         <div className={classes.SubDiv}>
           <img src="assets/images/facilities/nescafe.jpeg" alt="."
-            style={{width: 300, height: 200, borderRadius: 12, marginLeft: 15 }} />
+            className={classes.FacImg} />
           <p style={{marginTop: 10}}>Each hostel has its own canteen. Apart from those the other
           canteens that we have inside campus are : <br/>
           1) Wonder Cafe  <br/>
@@ -179,7 +177,7 @@ export default function Facilities() {
       <div className={classes.SubSectionText}>
         <div className={classes.SubDiv}>
           <img src="assets/images/infra/img4.jpg" alt="."
-            style={{width: 300, height: 200, borderRadius: 12, marginLeft: 15}} />
+            className={classes.FacImg} />
           <p style={{marginTop: 10}}>The Library as one of the important central facilities of the Institute
           supports the study, teaching, research and development programmes of the
           Institute. It is housed in a separate building having three floors on a
@@ -202,7 +200,7 @@ export default function Facilities() {
       <div className={classes.SubSectionText}>
         <div className={classes.SubDiv}>
           <img src="assets/images/facilities/mu.jpeg" alt="."
-            style={{width: 300, height: 200, borderRadius: 12, marginLeft: 15}} />
+            className={classes.FacImg} />
           <p style={{marginTop: 10}}>The Medical Unit prioritizes intensive care and attentive treatment by
           catering to the needs of its employees and students. It is served by three
           resident doctors, three Contractual doctors and other medical staff.
