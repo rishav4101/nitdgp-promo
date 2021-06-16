@@ -53,11 +53,12 @@ const useStyles = makeStyles((theme)=>({
       textAlign:"center",
     },
     [theme.breakpoints.up("md")]: {
-      padding: "20px",
-      marginLeft: "20px",
-      marginTop: "30px",
-      marginBottom: "20px",
+      padding: "10px",
+      marginLeft: "10px",
+      marginTop: "10px",
+      marginBottom: "10px",
       fontSize: "14px",
+      lineHeight: 1.2,
     }
   },
   head: {
@@ -98,7 +99,9 @@ return(
           Cicero, written in 45 BC. This book is a treatise on the theory of
           ethics, very popular during the Renaissance. The first line of Lorem
           Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
-          1.10.32."
+          1.10.32."<br /><br />
+          Prof. Anupam Basu<br />
+          Director, NIT Durgapur
         </p>
       </div>
       </Container>

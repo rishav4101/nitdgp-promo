@@ -117,7 +117,8 @@ const Alumni = () => {
         Cicero, written in 45 BC. This book is a treatise on the theory of
         ethics, very popular during the Renaissance. The first line of Lorem
         Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
-        1.10.32.
+        1.10.32.<br /><br />
+      <b>Visit <a href="https://alumnitdgp.in">CAAIR</a> to know more.</b>
       </div>
       <div className={classes.Line}></div>
       <Grid container spacing={3}>

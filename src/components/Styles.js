@@ -87,7 +87,7 @@ export const useStyles = makeStyles((theme) => ({
     },
   },
   SubSectionText: {
-    textAlign: "left",
+    textAlign: "justify",
     width: "min(90%, 800px)",
     margin: "10px auto",
     [theme.breakpoints.down("md")]: {
