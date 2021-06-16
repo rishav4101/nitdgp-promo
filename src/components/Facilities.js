@@ -162,7 +162,7 @@ export default function Facilities() {
       </div>
       <div className={classes.Line}></div>
 
-      <h3 className={classes.SubSectionHead}>HIGH VOLTAGE LABRATORY</h3>
+      <h3 className={classes.SubSectionHead}>HIGH VOLTAGE LABORATORY</h3>
       <div className={classes.SubSectionText}>
         At present, very few colleges have high voltage and High Power Laboratory
         facilities due to the involvement of huge costs and availability of
@@ -230,7 +230,7 @@ export default function Facilities() {
 
       <h3 className={classes.SubSectionHead}>POST OFFICE</h3>
       <div className={classes.SubSectionText}>
-        We also have a post office inside the campus to help official communication.
+        We have an Indian Post branch inside the campus to help official communication.
       <br/>
         <b>Address:</b> A-Zone, Durgapur, West Bengal 713209 Phone: 1800 11 2011
       </div>
