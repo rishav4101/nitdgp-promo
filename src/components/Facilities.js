@@ -5,18 +5,52 @@ export default function Facilities() {
   const classes = useStyles();
   return (
     <div style={{ width: "90%", margin: "0px auto", textAlign: "center" }}>
-      <h1 className={classes.SectionHead}>THE FACILITIES</h1>
+      <h1 className={classes.SectionHead}>FACILITIES AND SUPPORT</h1>
       <div className={classes.Line}></div>
 
-      <h3 className={classes.SubSectionHead}>BANKS</h3>
+      <h3 className={classes.SubSectionHead}>187 ACRE LUSH GREEN CAMPUS</h3>
       <div className={classes.SubSectionText}>
-        We have two banks inside the campus itself.<br/>
-        1) State Bank of India NIT Durgapur Branch. <br/>
-        2) Canara Bank.
+
       </div>
       <div className={classes.Line}></div>
 
-      <h3 className={classes.SubSectionHead}>Central Instruments Facilities</h3>
+      <h3 className={classes.SubSectionHead}>GUEST HOUSE</h3>
+      <div className={classes.SubSectionText}>
+        The Institute Guest House standing beside the Director's Bungalow serves
+        to render hospitality to the Official and Non-official guests of the Institute.
+        It is a unique double storied building with modern living facilities
+        overlooking a beautiful garden and tall sal trees all around.
+        The guests of faculty members and students are also accommodated there
+        with advanced booking as per availability.
+      </div>
+      <div className={classes.Line}></div>
+
+      <h3 className={classes.SubSectionHead}>UTKARSH BHAWAN (HEFA)</h3>
+      <div className={classes.SubSectionText}>
+        G + 10 Storied Central Research & Academic Laboratory Building. <br/>
+        <b>Central Research Facility (CRF)</b> <br/>
+        <ul style={{listStyle: "square", marginLeft: "30px"}}>
+          <li>Physical Characterization Facility</li>
+          <li>Chemical Characterization Facility</li>
+          <li>Mechanical Characterization Facility</li>
+          <li>High Performance Computing and Storage</li>
+          <li>Electrical and Electronics Fabrication and Characterization Facility</li>
+        </ul>
+        <b>Centralized Laboratory Facility (CLF)</b> <br/>
+         <ul style={{listStyle: "square", marginLeft: "30px"}}>
+          <li>Physics Lab</li>
+          <li>Chemistry Lab</li>
+          <li>Basic Electrical Engg. Lab</li>
+          <li>Basic Analog and Digital Electronics Laboratory</li>
+          <li>Computation Lab</li>
+          <li>Process Control Lab</li>
+          <li>Language Lab</li>
+          <li>Tinkering Lab</li>
+        </ul>
+      </div>
+      <div className={classes.Line}></div>
+
+      <h3 className={classes.SubSectionHead}>Central Instruments Facilities (CIF)</h3>
       <div className={classes.SubSectionText}>
         <b>1) XRD Equipment:</b> PANalytical XPert Pro Basic X-ray Powder
             Diffraction Package with all accessories and soft wares.
@@ -36,12 +70,39 @@ export default function Facilities() {
       <h3 className={classes.SubSectionHead}>HOSTELS AND RESIDENTIAL QUARTERS</h3>
       <div className={classes.SubSectionText}>
         National Institute of Technology, Durgapur is a residential Institute.
-        There are seven hostels for boys and two hostels for girls to accommodate
+        There are total 13 hostels to accommodate
         the admitted students. All the hostels have been provided with WiFi facility
-        to provide seamless internet connectivity to the students.
+        to give seamless internet connectivity to the students.
       <br/>
         The most of the teachers and the staff members reside in the residential
-        quarters provided by the Institute.
+        quarters provided by the Institute. A model <b>co-educational higher secondary
+        school</b> has been set up for the wards of the employees of the Institute.
+      </div>
+      <div className={classes.Line}></div>
+
+      <h3 className={classes.SubSectionHead}>STUDENT ACTIVITY CENTRE (SAC)</h3>
+      <div className={classes.SubSectionText}>
+        The Student Activity Centre (SAC) is treated as one of the Central
+        Facilities of the Institute with a mission to train the students in
+        physical activities so as to enable them to face the complex societal
+        challenges in sound health and state of mind.<br/>
+        Excellent facilities are available for major sports, Yoga, Martial Art, NCC and NSS.
+        It also includes well equipped multi gymnasiums for boys and girls with
+        separate timings.
+      </div>
+      <div className={classes.Line}></div>
+
+      <h3 className={classes.SubSectionHead}>PLAYGROUNDS AND COURTS</h3>
+      <div className={classes.SubSectionText}>
+        The institute has two playgrounds, the impressive ‘Lords’ Football stadium and
+        the central Sports ground ‘Oval’ where all the major games are organized
+        throughout the year including Volleyball courts with flood light facilities,
+        concrete cricket practice pitch, concrete Basketball Court with flood light
+        facilities, concrete tennis court with flood light facilities, concrete
+        badminton courts with flood light facilities, Table Tennis, Chess, Yoga etc.<br/>
+      Beside central sports facilities, most of the halls of residence are equipped
+        with Volleyball and concrete badminton courts including Table Tennis
+        and Carom board facilities.
       </div>
       <div className={classes.Line}></div>
 
@@ -56,20 +117,14 @@ export default function Facilities() {
       </div>
       <div className={classes.Line}></div>
 
-      <h3 className={classes.SubSectionHead}>CENTERS</h3>
+      <h3 className={classes.SubSectionHead}>CENTRES</h3>
       <div className={classes.SubSectionText}>
-        1) Computer Center. <br/>
-      </div>
-      <div className={classes.Line}></div>
-
-      <h3 className={classes.SubSectionHead}>GUEST HOUSE</h3>
-      <div className={classes.SubSectionText}>
-        The Institute Guest House standing beside the Director's Bungalow serves
-        to render hospitality to the Official and Non-official guests of the Institute.
-        It is a unique double storied building with modern living facilities
-        overlooking a beautiful garden and tall sal trees all around.
-        The guests of faculty members and students are also accommodated there
-        with advanced booking as per availability.
+        1) Computer Center <br/>
+        2) Centre of Excellence in Advanced Materials <br/>
+        3) Centre for Biomedical Engineering & Assistive Technology (BEAT) <br/>
+        4) Centre for Research on Environment and Water (CREW) <br/>
+        5) Centre for Advanced Research on Energy (CARE) <br/>
+        6) Centre of Excellence on IoT and Intelligent Systems (IoTIS)
       </div>
       <div className={classes.Line}></div>
 
@@ -123,6 +178,14 @@ export default function Facilities() {
       </div>
       <div className={classes.Line}></div>
 
+      <h3 className={classes.SubSectionHead}>BANKS</h3>
+      <div className={classes.SubSectionText}>
+        We have two banks inside the campus itself.<br/>
+        1) State Bank of India NIT Durgapur Branch. <br/>
+        2) Canara Bank.
+      </div>
+      <div className={classes.Line}></div>
+
       <h3 className={classes.SubSectionHead}>POST OFFICE</h3>
       <div className={classes.SubSectionText}>
         We also have a post office inside the campus to help official communication.
@@ -131,11 +194,15 @@ export default function Facilities() {
       </div>
       <div className={classes.Line}></div>
 
-      <h1 className={classes.SubSectionHead}>POST OFFICE</h1>
+      <h3 className={classes.SubSectionHead}>OTHER FACILITIES</h3>
       <div className={classes.SubSectionText}>
-        Address: A-Zone, Durgapur, West Bengal 713209 Phone: 1800 11 2011 <br />
+        1) Campus wide Internet connectivity <br/>
+        2) Two GPU Servers <br/>
+        3) Three 400 kVA DG Set <br/>
+        4) Around 82 Classrooms
       </div>
       <div className={classes.Line}></div>
+
     </div>
   );
 }
