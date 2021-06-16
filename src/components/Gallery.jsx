@@ -122,7 +122,7 @@ export const Gallery = (props) => {
               // >
               <div style={{margin:8}}>
                 <div className={model ? "model open" : "model"} style={{display: "flex", flexDirection: 'column'}}>
-                  <img style={{ objectFit: "cover", height: "80vh", width: "80vh" }} src={Tempimg} alt="." />
+                  <img style={{ objectFit: "cover", height: "90vh", width: "90vh" }} src={Tempimg} alt="." />
                   <h3>{TempimgName}</h3>
                   <CloseIcon onClick={() => setmodel(false)} />
                 </div>
