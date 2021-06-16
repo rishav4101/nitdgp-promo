@@ -72,6 +72,17 @@ export const useStyles = makeStyles((theme) => ({
       fontSize: 14,
     },
   },
+  SubDiv: {
+    display: "flex",
+    justifyContent: "center",
+    alignItems: "center",
+    [theme.breakpoints.down("sm")]: {
+      flexDirection: "column",
+    },
+    [theme.breakpoints.up("md")]: {
+      flexDirection: "row-reverse"
+    },
+  },
 
   //SubSection
   SubSectionHead: {
