@@ -58,10 +58,10 @@ const Slider = () => {
                                     <div className="hover-text hover-text--lire"><span>LI</span><span>RE</span></div>
                                     <div className="home-slider-item-content">
                                         <ul className="categories">
-                                            <li className="main-category">Lire</li>
-                                            <li>Enqu&ecirc;tes</li>
+                                            <li className="main-category">NIT</li>
+                                            <li>DURGAPUR</li>
                                         </ul>
-                                        <h5>Ce que ta voix dit de moi</h5>
+                                        <h5>Main Academic Building</h5>
                                     </div>
                                 </div>
                             </div>
@@ -85,11 +85,11 @@ const Slider = () => {
                                     <div className="hover-text hover-text--lire"><span>LI</span><span>RE</span></div>
                                     <div className="home-slider-item-content">
                                         <ul className="categories">
-                                            <li className="main-category">Lire</li>
-                                            <li>Chroniques</li>
-                                            <li>Interviews</li>
+                                            <li className="main-category">NIT</li>
+                                            
+                                            <li>DURGAPUR</li>
                                         </ul>
-                                        <h5>Catastrophe : le boxon dans ton salon</h5>
+                                        <h5>15th <small>Convocation Ceremony</small> </h5>
                                     </div>
                                 </div>
                             </div>
@@ -112,11 +112,11 @@ const Slider = () => {
                                     <div className="hover-text hover-text--voir"><span>VO</span><span>IR</span></div>
                                     <div className="home-slider-item-content">
                                         <ul className="categories">
-                                            <li className="main-category">Voir</li>
-                                            <li>Humeurs</li>
+                                            <li className="main-category">MAIN</li>
+                                            <li>ENTRANCE</li>
                                         </ul>
-                                        <h5>BIOPIX &ndash; Myl&egrave;ne Farmer : Une vie d&rsquo;artiste illustr&eacute;e
-                                            [3/8]</h5>
+                                        <h5><small>Remembering &ndash;</small></h5> 
+                                        <h5>Dr. Bidhan Chandra Roy  </h5>
                                     </div>
                                 </div>
                             </div>
@@ -139,11 +139,11 @@ const Slider = () => {
                                     <div className="hover-text hover-text--voir"><span>VO</span><span>IR</span></div>
                                     <div className="home-slider-item-content">
                                         <ul className="categories">
-                                            <li className="main-category">Rich</li>
-                                            <li>Culture</li>
+                                            <li className="main-category">ART &</li>
+                                          
+                                            <li>PHOTOGRAPHY CLUB</li>
                                         </ul>
-                                        <h5>On a film&eacute; le Battle Opsession 2021 au Lieu Unique &agrave;
-                                            Nantes</h5>
+                                        <h5>WALL ART BY STROKES </h5>
                                     </div>
                                 </div>
                             </div>
@@ -170,7 +170,8 @@ const Slider = () => {
                                             <li className="main-category">Live</li>
                                             <li>Performances</li>
                                         </ul>
-                                        <h5>NitYamini<small>(previously known as RECstacy)</small>, the annual cultural festival of NIT Durgapur</h5>
+                                        <h5>Nityamini </h5> 
+                                        <h5><small>the annual cultural fest</small>  </h5>
                                     </div>
                                 </div>
                             </div>
