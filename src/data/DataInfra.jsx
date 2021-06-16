@@ -39,6 +39,26 @@ const Datainfra = [
         name: "ECE Department",
         imgsrc: "assets/images/infra/img8.jpeg"
     },
+    {
+        id: "9",
+        name: "Campus Map",
+        imgsrc: "assets/images/infra/campusMap.jpeg"
+    },
+    {
+        id: "10",
+        name: "Design and Innovation Center",
+        imgsrc: "assets/images/infra/DIcenter.jpeg"
+    },
+    {
+        id: "11",
+        name: "Hall 13",
+        imgsrc: "assets/images/infra/hall13.jpeg"
+    },
+    {
+        id: "12",
+        name: "Hall 14",
+        imgsrc: "assets/images/infra/hall14.jpeg"
+    },
 ]
 
 export default Datainfra;
