@@ -58,7 +58,7 @@ const useStyles = makeStyles((theme)=>({
       marginTop: "10px",
       marginBottom: "10px",
       fontSize: "14px",
-      lineHeight: 1.2,
+      lineHeight: 1.3,
     }
   },
   head: {
