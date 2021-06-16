@@ -9,7 +9,7 @@ export default function Societies() {
   return (
     <div style={{ width: "100%", textAlign: "center" }}>
       <h1 className={classes.SectionHead}>OUR societies</h1>
-      <Video source="https://www.youtube.com/embed/pvze9BPX36U" />
+      <Video source="https://www.youtube.com/embed/RwwdWcIqRbA" />
       <br />
       <div
         className={classes.SectionText}
