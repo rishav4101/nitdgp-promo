@@ -54,22 +54,6 @@ export default function Team() {
           ))}
         </div>
 
-        <h1 className={classes.SectionHead}>Coordinator</h1>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
-            <TeamCard
-              img="./assets/images/team/ankan.jpg"
-              title="Ankan Pramanik"
-              inlink="https://www.linkedin.com/in/ankan-pramanik-67b911199/"
-            />
-        </div>
-
         <h1 className={classes.SectionHead}>Video Editors</h1>
         <div
           style={{

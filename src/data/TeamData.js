@@ -1,5 +1,11 @@
 const TeamData = [
     {
+        img: "assets/images/team/ankan.jpg",
+        title: "Ankan Pramanik",
+        glink: "https://github.com/ankanpramanik",
+        inlink: "https://www.linkedin.com/in/ankan-pramanik-67b911199/"
+    },
+    {
         img: "https://avatars.githubusercontent.com/u/55195287?s=400&u=65ab81a7552d92a7bb5cd5d38863bcd332f81ccb&v=4",
         title: "Rishav Raj Kumar",
         glink: "https://github.com/rishav4101",
