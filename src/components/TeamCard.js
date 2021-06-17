@@ -11,7 +11,7 @@ export default function TeamCard(props){
             <div className={classes.TeamTitle}>{props.title}</div>
             <div className={classes.TeamTitle}>
               <a href={props.inlink}><LinkedInIcon /></a>
-              <a href={props.glink}><GitHubIcon /></a>
+              {props.glink ? <a href={props.glink}><GitHubIcon /></a> : <></>}
             </div>
         </div>
     )

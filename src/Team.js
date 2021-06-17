@@ -53,6 +53,44 @@ export default function Team() {
             />
           ))}
         </div>
+
+        <h1 className={classes.SectionHead}>Video Editors</h1>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            flexWrap: "wrap",
+          }}
+        >
+            <TeamCard
+              img="./assets/images/team/neeladri.jpeg"
+              title="Neeladri Dhar"
+              inlink="https://www.linkedin.com/in/neeladri-dhar-11a7b220b"
+            />
+            <TeamCard
+              img="./assets/images/team/sankalp.jpeg"
+              title="Sankalp Mishra"
+              inlink="https://www.linkedin.com/in/sankalp-mishra-78652b201/"
+            />
+        </div>
+
+        <h1 className={classes.SectionHead}>Coordinator</h1>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            flexWrap: "wrap",
+          }}
+        >
+            <TeamCard
+              img="./assets/images/team/ankan.jpg"
+              title="Ankan Pramanik"
+              inlink="https://www.linkedin.com/in/ankan-pramanik-67b911199/"
+            />
+        </div>
+        
         <div className={classes.Line}></div>
         <h1 className={classes.SectionHead} style={{ fontSize: 17 }}>
           Images used in this website have been provided by "STROKES, NIT

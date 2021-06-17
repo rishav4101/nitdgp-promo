@@ -15,7 +15,7 @@ export default function Societies() {
         className={classes.SectionText}
       >
         The Institute houses several clubs and student bodies ranging from cultural, technical, environmental etc.
-         The clubs organise workshops, fests and events all year around and witness huge participation from students all over India.
+         The clubs organise workshops, fests and events all year around and witness huge participation.
       </div>
       <div className={classes.Line}></div>
       {SocietiesData?.map((club) => (
