@@ -16,6 +16,20 @@ const AlumniList = [
     curr_post: "Professor, IIT Delhi & Project Director, IHFC"
   },
   {
+    id: 12,
+    name: "Prof. Kamanio Chattopadhyay",
+    dgp_year: "1971, B.E., Metallurgical Engg.",
+    photo: "assets/images/alumni/kamanio_chattopadhyay.jpg",
+    curr_post: "Honorary Professor, Department of Materials Engineering, IISc Bangalore"
+  },
+  {
+    id: 13,
+    name: "Mr. B. Sumant",
+    dgp_year: "1985, B.E., Mechanical Engg.",
+    photo: "assets/images/alumni/bsumant.jpg",
+    curr_post: "Additional Whole Time Director & President of FMCG Businesses, ITC Ltd."
+  },
+  {
     id: 1,
     name: "Prof. Bikramjit Basu",
     dgp_year: "1995, B.E., Metullurgical and Materials Engg.",
@@ -106,10 +120,10 @@ const Alumni = () => {
       <div
         className={classes.SectionText}
       >
-        The institute stays in constant touch with its alumni strengthening the alumni-student interaction. 
-        The institute has numerous alumni not only in India but in many foreign countries who have went on to become 
+        The institute stays in constant touch with its alumni strengthening the alumni-student interaction.
+        The institute has numerous alumni not only in India but in many foreign countries who have went on to become
         the masters of their fields and have acquired top positions. We have the Centre for Alumni Affairs & International Relations (CAAIR)
-         that acts as a platform to unite all the alumni across to the world to connect with their alma mater.<br /><br />
+         that acts as a platform to unite all the alumni across the world to connect with their alma mater.<br /><br />
       <b>Visit <a href="https://alumnitdgp.in">CAAIR</a> to know more.</b>
       </div>
       <div className={classes.Line}></div>
