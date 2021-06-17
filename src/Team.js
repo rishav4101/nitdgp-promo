@@ -36,23 +36,6 @@ export default function Team() {
           </Link>
         </div>
 
-        <h1 className={classes.SectionHead}>Coordinator</h1>
-        <div
-          style={{
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-            flexWrap: "wrap",
-          }}
-        >
-            <TeamCard
-              img="./assets/images/team/ankan.jpg"
-              title="Ankan Pramanik"
-              inlink="https://www.linkedin.com/in/ankan-pramanik-67b911199/"
-              glink="https://github.com/ankanpramanik"
-            />
-        </div>
-        
         <h1 className={classes.SectionHead}>Web Team</h1>
         <div
           style={{
@@ -90,6 +73,23 @@ export default function Team() {
               img="./assets/images/team/sankalp.jpeg"
               title="Sankalp Mishra"
               inlink="https://www.linkedin.com/in/sankalp-mishra-78652b201/"
+            />
+        </div>
+
+        <h1 className={classes.SectionHead}>Coordinator</h1>
+        <div
+          style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            flexWrap: "wrap",
+          }}
+        >
+            <TeamCard
+              img="./assets/images/team/ankan.jpg"
+              title="Ankan Pramanik"
+              inlink="https://www.linkedin.com/in/ankan-pramanik-67b911199/"
+              glink="https://github.com/ankanpramanik"
             />
         </div>
 
