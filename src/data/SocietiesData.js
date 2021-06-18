@@ -3,43 +3,231 @@ const SocietiesData = [
         id: "1",
         imgsrc: "assets/images/societies/CCA.png",
         text: "Centre for Cognitive Activities, CCA, is the technical hub of the institute. The club nurtures technical, scientific and analytical thinking of students. It’s the oldest club of the institute and was the first to organize Aarohan, the annual Techno Management festival of NIT Durgapur, which is now the 2nd largest Techno Management fest of eastern India, presently conducted collectively by five clubs including CCA.The club aims to promote creativity and technical knowledge among students by conducting various fun events, interactive workshops lending a helping hand to turn one's fascination and dreams into reality. The five cells- Core cell, Robo Cell, Web Design & Creative Team (WDCT), Entrepreneurship Cell ( E-Cell ) and Research & Development Cell (R&D Cell) together ensure the smooth and better functioning of the club.",
-        link: "https://www.ccanitd.in"
+        link: "https://www.ccanitd.in",
+        array: [
+            {
+                imgsrc: "assets/images/societies/CCA/1.jpeg"
+            },
+            {
+                imgsrc: "assets/images/societies/CCA/2.jpeg"
+            },
+            {
+                imgsrc: "assets/images/societies/CCA/3.jpeg"
+            },
+            {
+                imgsrc: "assets/images/societies/CCA/4.jpeg"
+            },
+            {
+                imgsrc: "assets/images/societies/CCA/5.jpeg"
+            },
+            {
+                imgsrc: "assets/images/societies/CCA/6.jpeg"
+            },
+            {
+                imgsrc: "assets/images/societies/CCA/7.jpeg"
+            },
+            {
+                imgsrc: "assets/images/societies/CCA/8.jpeg"
+            },
+            {
+                imgsrc: "assets/images/societies/CCA/9.jpeg"
+            }
+        ]
     },
     {
         id: "2",
         imgsrc: "assets/images/societies/Darpan.jpg",
         text: " We are the Hindi society of NIT Durgapur, actively engaged in the service of Hindi, official language of the Indian Republic. Darpan looks forward to the overall development of people with different types of programs. We provide valuable and useful platforms for the promotion of talent of students, as well as awards, cash prizes and citations to honor their merit. Various offline and online events are organised throughout the year. Promoting rajbhasa Hindi is the first priority of Darpan and will continue to establish Hindi language on its peak growth with its proper functions",
-        link: "https://www.facebook.com/DanceClubNITD/"
+        link: "https://www.facebook.com/DanceClubNITD/",
+        array:[
+            {
+                imgsrc:"assets/images/societies/Darpan/1.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Darpan/2.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Darpan/3.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Darpan/4.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Darpan/5.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Darpan/6.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Darpan/7.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Darpan/8.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Darpan/9.jpeg"
+            },
+        ]
     },
     {
         id: "3",
         imgsrc: "assets/images/societies/DC.jpeg",
         text: "Dance Club is the official dance club of Nitdgp. We not only perform in Independence Day, Republic Day and other college fests but also participate in inter college fests like spring fest(iitkgp) and carpe diem(iim Calcutta) and have brought medals for our college. We believe in diversity hence we support and perform all dance forms.",
-        link: "https://www.facebook.com/darpan.nitdgp/"
+        link: "https://www.facebook.com/darpan.nitdgp/",
+        array:[
+            {
+                imgsrc:"assets/images/societies/DC/1.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/DC/2.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/DC/3.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/DC/4.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/DC/5.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/DC/6.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/DC/7.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/DC/8.jpeg"
+            },
+        ]
     },
     {
         id: "4",
         imgsrc: "assets/images/societies/debsoc.png",
         text: "The Debating Society is the official debating club of NIT Durgapur. The core ideology of this club aims to promote the culture of debating and public speaking on campus. The club also conducts workshops and intra-college debates like Asian Parliamentary Debate and Oxford Union Debate to help the students develop confidence and subsequently represent NIT Durgapur in various debating and public speaking competitions across the country. Apart from debates our flagships events like Kill Code, Take de Bait, Icebreaker and Empire witnessed the largest turnout among college events. We focus on incorporating tech into our practices, which sets us apart from most other debating clubs across a wide range of institutions.",
-        link: "http://www.debsocnitdgp.in"
+        link: "http://www.debsocnitdgp.in",
+        array:[
+            {
+                imgsrc:"assets/images/societies/Debsoc/1.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Debsoc/2.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Debsoc/3.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Debsoc/4.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Debsoc/5.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Debsoc/6.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Debsoc/7.jpeg"
+            },
+        ]
     },
     {
         id: "5",
         imgsrc: "assets/images/societies/edc.png",
         text: "Entrepreneurship Development Cell of NIT Durgapur formerly known as NEN NIT Durgapur Students Chapter is the one and only independent cell of the institute, of national importance, inculcating an entrepreneurial environmental across the campus. To promote potential innovative startups from our college so that the students with their technical and entrepreneurial knowledge and skill will help India become the Innovation hub of the world. We are officially registered as a member college to NATIONAL ENTREPRENEURSHIP NETWORK under Wadhwani Foundation.",
-        link: "https://www.edcnitd.co.in/"
+        link: "https://www.edcnitd.co.in/",
+        array:[
+            {
+                imgsrc:"assets/images/societies/EDC/1.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/EDC/2.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/EDC/3.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/EDC/4.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/EDC/5.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/EDC/6.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/EDC/7.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/EDC/8.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/EDC/9.jpeg"
+            },
+        ]
     },
     {
         id: "6",
         imgsrc: "assets/images/societies/enteract.png",
         text: "Enteract is the official Dramatics Club of NIT Durgapur. It is a home to all the theatre lovers and nukkad enthusiasts. Enteract produces a wide variety of performances ranging from street plays and stage plays to Monoacts and mimes, arguably with professional competency. The club keeps an in-depth knowledge of cinematography too which helps it to excel in movie and ad film making. Moreover the club participates in various cultural fests across the country creating awareness about various social issues and organizes events and workshops round the year, thus assisting the students to leave behind their stage fear, develop confidence and channelise their energy to do something creative.",
-        link: "https://www.facebook.com/enteractclub"
+        link: "https://www.facebook.com/enteractclub",
+        array:[
+            {
+                imgsrc:"assets/images/societies/Enteract/1.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Enteract/2.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Enteract/3.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Enteract/4.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Enteract/5.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Enteract/6.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Enteract/7.jpeg"
+            },
+        ]
     },
     {
         id: "7",
         imgsrc: "assets/images/societies/glug.png",
         text: "The GNU/Linux Users Group, NIT Durgapur is a community of GNU/Linux Users that promote the use of Free and Open-Source Software. The Group was established in 2003 by a bunch of FOSS enthusiasts with the idea of popularising and contributing to Open Source. We are a plethora of designers, contributors and developers that believe in learning and sharing through opening up your mind to Open Source.",
-        link:"http://nitdgplug.org/"
+        link:"http://nitdgplug.org/",
+        array:[
+            {
+                imgsrc:"assets/images/societies/GLUG/1.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/GLUG/2.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/GLUG/3.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/GLUG/4.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/GLUG/5.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/GLUG/6.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/GLUG/7.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/GLUG/8.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/GLUG/9.jpeg"
+            },
+        ]
     },
     {
         id: "8",
