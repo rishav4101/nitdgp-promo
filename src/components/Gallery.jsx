@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import "./galstyle.css";
 import CloseIcon from "@material-ui/icons/Close";
 import { makeStyles } from "@material-ui/core";
-import { Container, Typography } from "@material-ui/core";
+import { Typography } from "@material-ui/core";
 import Card from "@material-ui/core/Card";
 import CardMedia from "@material-ui/core/CardMedia";
 
