@@ -96,7 +96,7 @@ export const Gallery = (props) => {
 
   return (
     <>
-      <Container>
+      <div>
         {/* <h1
           style={{
             color: "#343f56",
@@ -154,7 +154,7 @@ export const Gallery = (props) => {
           })}
           </div>
         {/* </Grid> */}
-      </Container>
+      </div>
     </>
   );
 };

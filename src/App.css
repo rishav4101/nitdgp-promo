@@ -1,3 +1,6 @@
 html, body{
     background-color: #fff7ef;
 }
+.MuiAccordion-root .Mui-expanded{
+    margin:16px auto !important;
+}
