@@ -103,11 +103,11 @@ const Aarohan = [
 
   },
   {
-    imgsrc: "assets/images/fests/AAROHAN/8.jpg",
+    imgsrc: "assets/images/fests/AAROHAN/8.JPG",
 
 },
 {
-  imgsrc: "assets/images/fests/AAROHAN/7.jpg",
+  imgsrc: "assets/images/fests/AAROHAN/7.JPG",
 
 },
 {
@@ -119,7 +119,7 @@ const Aarohan = [
 
 },
 {
-  imgsrc: "assets/images/fests/AAROHAN/9.jpg",
+  imgsrc: "assets/images/fests/AAROHAN/9.JPG",
 
 }
 ]
