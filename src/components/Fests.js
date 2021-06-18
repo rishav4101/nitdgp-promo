@@ -12,7 +12,7 @@ export default function Fests() {
       <br/>
 
 
-      
+
       <div className={classes.Line}></div>
       <ContentCard text="NITyamini, previously known as Recstacy, is the annual socio cultural fest,
       organised by the Students' Gymkhana of NIT Durgapur. Loaded with music, dance and drama, packed
@@ -34,14 +34,14 @@ NITyamini seeks to provide an exclusive platform for budding artists from across
         The guest lectures held provide an opportunity to the students to gain experience from the well-known personalities and kindling the spirit of motivation in them and thus,
         Aarohan brings some of the best solutions for mankind to the fore. Many great personalities have graced Aarohan with their enlightening presence.'
         array={Aarohan}
-        
+
         source="assets/images/fests/aarohan.png"/>
 
         <ContentCard text='VIRASAT is the official cultural extravaganza of SPICMACAY NIT Durgapur Chapter which aims to spread the air of
 grace , mirth and the  indescribable beauty of the great and priceless cultural heritage of our country.
 A stunning fervour of passion and dedication takes over as the most esteemed of artists enliven the atmosphere with their classical genius, workshops, film screening and musical and dance performances,
  Virasat aims at highlighting and promoting the cultural heritage of India, among youth.'
- array={Virasat} 
+ array={Virasat}
  source="assets/images/societies/sm.png"/>
 
         <ContentCard text='Verve is the annual literary and youth fest of the college conducted by the
@@ -68,7 +68,7 @@ A stunning fervour of passion and dedication takes over as the most esteemed of 
         festival in Eastern India, and a crowning jewel in our repertoire. It is a three-day carnival of knowledge, information and fun which also
         pays tribute to the spirit of the quizzing culture. Every year, we get a turnout of over a hundred seasoned quizzers for
         our offline events, both from and outside the campus. On the other hand, the participation for our online quizzes runs into thousands."
-        
+
         source="assets/images/fests/qc.png"/>
 
 
@@ -91,29 +91,36 @@ const NITyamini = [
 },
 {
   imgsrc: "assets/images/fests/NITYAMINI/5.jpeg",
+},
+{
+  imgsrc: "assets/images/fests/NITYAMINI/10.jpeg",
 }
       ]
 
 const Aarohan = [
   {
       imgsrc: "assets/images/fests/AAROHAN/1.jpeg",
-      
+
   },
   {
     imgsrc: "assets/images/fests/AAROHAN/8.jpg",
-    
+
 },
 {
   imgsrc: "assets/images/fests/AAROHAN/7.jpg",
-  
+
 },
 {
   imgsrc: "assets/images/fests/AAROHAN/4.jpeg",
-  
+
 },
 {
   imgsrc: "assets/images/fests/AAROHAN/5.jpeg",
-  
+
+},
+{
+  imgsrc: "assets/images/fests/AAROHAN/9.jpg",
+
 }
 ]
 
@@ -132,7 +139,10 @@ const Virasat = [
 },
 {
   imgsrc: "assets/images/fests/VIRASAT/8.jpeg",
-},  
+},
+{
+  imgsrc: "assets/images/fests/VIRASAT/6.jpeg",
+},
 ]
 const Verve = [
       {
@@ -149,7 +159,10 @@ const Verve = [
 },
 {
   imgsrc: "assets/images/fests/VERVE/12.jpeg",
-}, 
+},
+{
+  imgsrc: "assets/images/fests/VERVE/6.jpeg",
+},
 ]
 const Esummit = [
   {
@@ -167,17 +180,8 @@ const Esummit = [
 {
   imgsrc: "assets/images/fests/ESUMMIT/16.jpeg",
 },
-  
+{
+  imgsrc: "assets/images/fests/ESUMMIT/12.jpeg",
+},
+
 ]
-        
-
-
-
-
-
-
-
-
-
-
-
