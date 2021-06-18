@@ -155,39 +155,7 @@ export const useStyles = makeStyles((theme) => ({
   },
 
   //ContentCard
-  ContentCardWrap: {
-    textDecoration:"none",
-    width: "min(95%, 1000px)",
-    margin: "20px auto",
-    display: "flex",
-    justifyContent: "center",
-    alignItems: "center",
-    border: "2px solid #343f56",
-    borderRadius: 15,
-    boxShadow: "0px 2px 10px #d2939c",
-    [theme.breakpoints.down("xs")]: {
-      flexWrap:"wrap",
-      width: "90%"
-    },
-    '&:nth-child(odd)':{
-      flexDirection:"row-reverse"
-    },
-    color:"#343f56"
-  },
-  ContentCardImg: {
-    height: 130,
-    width:130,
-    margin: "20px 40px",
-    objectFit:"contain",
-    borderRadius:20
-  },
-  ContentCardText: {
-    textDecoration:"none",
-    width: "100%",
-    textAlign: "left",
-    padding: "20px",
-    color: "#343f56",
-  },
+  
 
   //TeamCard
   TeamCardWrap:{
