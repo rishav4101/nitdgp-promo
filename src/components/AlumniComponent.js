@@ -106,6 +106,48 @@ const AlumniList = [
     dgp_year: "1969, B.E., Metullurgical and Materials Engg.",
     photo: "assets/images/alumni/Tarashankar_Debroy.PNG",
     curr_post: "Professor, Pennstate University, USA"
+  },
+  {
+    id: 14,
+    name: "Mr. Anirban Sengupta",
+    dgp_year: "1998, B.E., Mechanical Engg.",
+    photo: "assets/images/alumni/Anirban_Sengupta.PNG",
+    curr_post: "Head-Digital Application Services, Wipro"
+  },
+  {
+    id: 15,
+    name: "Mr. Manoj Krishna Majumder",
+    dgp_year: "2004, B.E., Mechanical Engg.",
+    photo: "assets/images/alumni/Manoj_Krishna_Majumder.PNG",
+    curr_post: "Principal Researcher, Product Application Research Group TATA Steel, Jamshedpur"
+  },
+  {
+    id: 16,
+    name: "Prof. Mrinal Mandal",
+    dgp_year: "1987, B.E., Electronics & Communication Engg.",
+    photo: "assets/images/alumni/Mrinal_Mandal.PNG",
+    curr_post: "Professor, Dept. of Electrical and Computer Engg., University of Alberta, Canada"
+  },
+  {
+    id: 17,
+    name: "Mr. Niraj kumar",
+    dgp_year: "1998, B.E., Metullurgical and Materials Engg.",
+    photo: "assets/images/alumni/Niraj_Kumar.PNG",
+    curr_post: "Delivery Project Executive-IBM, USA"
+  },
+  {
+    id: 18,
+    name: "Prof. Parthasarathi mandal",
+    dgp_year: "1991, B.E., Civil Engg.",
+    photo: "assets/images/alumni/Parthasarathi_mandal.PNG",
+    curr_post: "Professor,Dept. of Mechanical,Aerospace and Civil Engg., University of Manchester,UK"
+  },
+  {
+    id: 19,
+    name: "Dr. Raghu Thatikonda",
+    dgp_year: "1984, B.E., Metullurgical and Materials Engg.",
+    photo: "assets/images/alumni/raghu.jpg",
+    curr_post: "Scientist & Associate Director, Defense Metullurgical Laboratory, Hyderabad"
   }
 ]
 
@@ -149,7 +191,7 @@ const Alumni = () => {
                     <Typography variant="caption" color="textSecondary" style={{lineHeight:1}} component="p">
                       <small>({alumni.dgp_year})</small>
                     </Typography>
-                    <Typography variant="body3" style={{color: "#343f56", lineHeight:1, marginTop: "10px"}} component="p">
+                    <Typography variant="body3" style={{color: "#343f56", lineHeight:1, marginTop: "10px", fontSize: 14}} component="p">
                       {alumni.curr_post}
                     </Typography>
                   </CardContent>

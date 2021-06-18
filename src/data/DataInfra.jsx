@@ -69,6 +69,16 @@ const Datainfra = [
         name: "Computer Lab",
         imgsrc: "assets/images/infra/lab4.jpeg"
     },
+    {
+        id: "15",
+        name: "New Auditorium Building",
+        imgsrc: "assets/images/infra/img9.jpeg"
+    },
+    {
+        id: "16",
+        name: "Hall 11",
+        imgsrc: "assets/images/infra/hall11.jpeg"
+    },
 ]
 
 export default Datainfra;

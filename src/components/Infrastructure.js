@@ -9,7 +9,10 @@ export default function Infrastructure() {
   return (
     <div style={{ width: "100%", textAlign: "center" }}>
       <h1 className={classes.SectionHead}>THE INFRASTRUCTURE</h1>
-      <Video source="https://www.youtube.com/embed/OvQSCw20NJA"/>
+      <Video source="https://www.youtube.com/embed/pvze9BPX36U"/>
+      <p style={{marginTop: 10, fontStyle: 'italic', fontSize: 12, textAlign: 'center'}}>
+        "Video Courtesy: Nikamma Youtube Channel (This video is not owned by us)."
+      </p>
       <br/>
       <div
         className={classes.SectionText}

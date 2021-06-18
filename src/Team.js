@@ -98,9 +98,7 @@ export default function Team() {
         <div className={classes.Line}></div>
         <h1 className={classes.SectionHead} style={{ fontSize: 17 }}>
           Images used in this website have been provided by "STROKES, NIT
-          Durgapur".<br/>
-          Video used in Infrastructure is created by "STROKES, NIT
-          Durgapur"
+          Durgapur".
         </h1>
         <div className={classes.Line}></div>
       </div>
