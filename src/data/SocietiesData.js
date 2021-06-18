@@ -87,37 +87,103 @@ const SocietiesData = [
         id: "15",
         imgsrc: "assets/images/societies/quizinc.png",
         text:"QuizInc is the official Knowledge club of the college, which dabbles in quizzing as well as the sharing of worldly information amongst all the students. From hidden facts of India to obscure sports trivia, from the intricacies of going viral to the joys of mainstream entertainment, from the controversies in the newspapers to the advancements in business and technology, QuizInc covers all dimensions of this unique world and filters it down for the common masses. They preach and practise the slogan 'Cogita, Ergo Sum', (I think, therefore, I am), and strive to change the broad consciousness of this reputed college.",
-        link:"http://quizinc.in/"
+        link:"http://quizinc.in/",
+        array: [
+          {
+            imgsrc: "assets/images/societies/Quizinc/1.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/Quizinc/2.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/Quizinc/3.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/Quizinc/4.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/Quizinc/5.jpeg",
+          }
+        ]
     },
     {
         id: "16",
         imgsrc: "assets/images/societies/rn.jpg",
         text:" It is a 24/7 internet radio station which plays a mix of hindi and english songs and can be tuned at myradiostream.com/nitroz . Also, the listeners can listen to songs of their interest and dedicate to their loved ones from 10:00 pm - 12:00 am during the weekdays! Radio Station of NIT Durgapur, Radio Nitroz with the tagline Masti ka dozz was formed in the year 2006-2007 by the students of NIT Durgapur. Radio Nitroz is the 3rd successful LAN/Internet based radio among all IITs and NITs. It is a matter of proud for team Nitroz as well as NIT Durgapur.",
-        link: "https://sites.google.com/view/radionitrozmastikadoz/"
+        link: "https://sites.google.com/view/radionitrozmastikadoz/",
+        array: [
+          {
+            imgsrc: "assets/images/societies/RadioNitroz/1.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/RadioNitroz/2.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/RadioNitroz/3.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/RadioNitroz/4.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/RadioNitroz/5.jpeg",
+          }
+        ]
     },
     {
         id: "17",
         imgsrc: "assets/images/societies/recursion.jpg",
         text:"RECursion NIT Durgapur is an initiative to embolden the budding coding minds through regular Code Classes, robust coding competitions and geeky sessions. Pioneered by a faction of enthusiasts in 2014, RECursion has continued to evolve ever since. Besides a fancy placement package, we seek to ameliorate participation in programming competitions like ACM ICPC etc.Our dynamic panel is invariably available to sort any techie doubts and cultivate positivity in you. We intend to create an intriguing ambience where coding is more of a mental sport and after every green tick, the Coder in you gets bigger and wittier.",
-        link:"http://www.recursionnitd.in/"
+        link:"http://www.recursionnitd.in/",
+        array: [
+          {
+            imgsrc: "assets/images/societies/Recursion/1.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/Recursion/2.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/Recursion/3.jpeg",
+          }
+        ]
     },
     {
         id: "18",
         imgsrc: "assets/images/societies/sae.png",
         text:"SAE India collegiate chapter of NIT Durgapur was conceived in 2007 with an idea to integrate the students of the college into international fabric of automobile engineering.We organize a number of innovative events, workshops, Industrial visits and lectures round the year and a competitive place where the sharpest minds battle in the quest to achieve disctinction. SAE along with MNTC and GLUG organises Aavishkar - The Tech Fest which is the official technical fest of NIT Durgapur. Team NDORS, comprised of SAE members represents NIT Durgapur in Mahindra SAE Baja competition organised by SAE India.",
-        link:"http://www.saenitd.com"
+        link:"http://www.saenitd.com",
+        array: [
+          {
+            imgsrc: "assets/images/societies/SAE/1.jpeg",
+          },
+        ]
     },
     {
         id: "19",
         imgsrc: "assets/images/societies/sm.png",
         text:"A group of enthusiasts with a dream to “enrich the quality of formal education by increasing awareness about different aspects of Indian heritage and inspiring the young mind to imbibe the values embedded in it.” SPIC MACAY NIT Durgapur Chapter is the biggest cultural club in NIT Durgapur and embraces the beauty and wisdom that is ingrained in the Indian art forms. With a zeal to further the purview of Indian classical music and dance, folk, traditional paintings crafts, SPIC MACAY NIT Durgapur Chapter has been a quintessential part of the college aesthetics since its inception.",
-        link: "http://www.spicmacaynitdgp.in "
+        link: "http://www.spicmacaynitdgp.in ",
+        array: [
+          {
+            imgsrc: "assets/images/societies/SM/1.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/SM/2.jpeg",
+          }
+        ]
     },
     {
         id: "20",
         imgsrc: "assets/images/societies/str.png",
         text:"Strokes is the official art and photography club of NIT Durgapur. It is among the youngest clubs of NIT Durgapur and is one of its kind. Founded in 2015 by a bunch of enthusiasts then second year, it aims at patronizing the sense of creativity among the students of NIT Durgapur. We organize KALAKRITI (The Annual art and photography exhibition), PHOTO WALKS, WORKSHOPS and many more events throughout the year. We also beautify our college campus with wall paintings and cover each and every event organised in the college premises.",
-        link:"https://www.facebook.com/Strokes.NITD/"
+        link:"https://www.facebook.com/Strokes.NITD/",
+        array: [
+          {
+            imgsrc: "assets/images/societies/Strokes/1.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/Strokes/2.jpeg",
+          }
+        ]
     },
 ]
 
