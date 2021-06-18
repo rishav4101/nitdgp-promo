@@ -25,6 +25,8 @@ const useStyles = makeStyles((theme)=>({
     },
   },
   img: {
+    objectFit: "cover",
+    objectPosition: "top",
     [theme.breakpoints.down("sm")]: {
       height: "200px",
       aspectRatio: 1/1,

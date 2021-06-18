@@ -162,14 +162,18 @@ export default function Facilities() {
 
       <h3 className={classes.SubSectionHead}>HIGH VOLTAGE LABORATORY</h3>
       <div className={classes.SubSectionText}>
-        At present, very few colleges have high voltage and High Power Laboratory
-        facilities due to the involvement of huge costs and availability of
-        specialised faculty members as well as skilled staffs in this field.
+        <div className={classes.SubDiv}>
+          <img src="assets/images/facilities/hvl.jpeg" alt="."
+            className={classes.FacImg} />
+          <p style={{marginTop: 10}}>At present, very few colleges have high voltage and High Power Laboratory
+          facilities due to the involvement of huge costs and availability of
+          specialised faculty members as well as skilled staffs in this field.
+          <br/>
+          The High Voltage Laboratory of NIT Durgapur is a graduate research and
+          undergraduate teaching laboratory with many infrastructure and
+          testing facilities.</p>
       <br/>
-        The High Voltage Laboratory of NIT Durgapur is a graduate research and
-        undergraduate teaching laboratory with many infrastructure and
-        testing facilities.
-      <br/>
+        </div>
       </div>
       <div className={classes.Line}></div>
 
