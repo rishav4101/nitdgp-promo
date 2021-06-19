@@ -461,6 +461,21 @@ const SocietiesData = [
           {
             imgsrc: "assets/images/societies/SAE/1.jpeg",
           },
+          {
+            imgsrc: "assets/images/societies/SAE/2.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/SAE/3.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/SAE/4.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/SAE/5.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/SAE/6.jpeg",
+          }
         ]
     },
     {
@@ -474,6 +489,18 @@ const SocietiesData = [
           },
           {
             imgsrc: "assets/images/societies/SM/2.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/SM/3.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/SM/4.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/SM/5.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/SM/6.jpeg",
           }
         ]
     },
@@ -488,6 +515,18 @@ const SocietiesData = [
           },
           {
             imgsrc: "assets/images/societies/Strokes/2.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/Strokes/3.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/Strokes/4.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/Strokes/5.jpeg",
+          },
+          {
+            imgsrc: "assets/images/societies/Strokes/6.jpeg",
           }
         ]
     },

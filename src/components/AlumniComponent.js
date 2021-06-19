@@ -139,7 +139,7 @@ const AlumniList = [
     id: 18,
     name: "Prof. Parthasarathi mandal",
     dgp_year: "1991, B.E., Civil Engg.",
-    photo: "assets/images/alumni/Parthasarathi_mandal.PNG",
+    photo: "assets/images/alumni/Parthasarathi_Mandal.PNG",
     curr_post: "Professor,Dept. of Mechanical,Aerospace and Civil Engg., University of Manchester,UK"
   },
   {

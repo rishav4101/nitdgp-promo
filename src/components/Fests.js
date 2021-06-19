@@ -9,7 +9,7 @@ export default function Fests() {
     <div style={{ width: "100%", textAlign: "center"  }}>
       <h1 className={classes.SectionHead}>OUR fests</h1>
       <Video source="https://www.youtube.com/embed/Ld5zhiqv8yc"/>
-      <br/>
+      <br/> 
 
 
 
@@ -68,7 +68,7 @@ A stunning fervour of passion and dedication takes over as the most esteemed of 
         festival in Eastern India, and a crowning jewel in our repertoire. It is a three-day carnival of knowledge, information and fun which also
         pays tribute to the spirit of the quizzing culture. Every year, we get a turnout of over a hundred seasoned quizzers for
         our offline events, both from and outside the campus. On the other hand, the participation for our online quizzes runs into thousands."
-
+        array={Quizzitch}
         source="assets/images/fests/qc.png"/>
 
 
@@ -166,7 +166,7 @@ const Verve = [
 ]
 const Esummit = [
   {
-      imgsrc: "assets/images/fests/ESUMMIT/13.jpeg",
+      imgsrc: "assets/images/fests/ESUMMIT/1.jpeg",
   },
   {
     imgsrc: "assets/images/fests/ESUMMIT/2.jpeg",
@@ -178,10 +178,28 @@ const Esummit = [
   imgsrc: "assets/images/fests/ESUMMIT/8.jpeg",
 },
 {
-  imgsrc: "assets/images/fests/ESUMMIT/16.jpeg",
+  imgsrc: "assets/images/fests/ESUMMIT/18.jpeg",
 },
 {
   imgsrc: "assets/images/fests/ESUMMIT/12.jpeg",
 },
 
+]
+
+const Quizzitch = [
+  {
+      imgsrc: "assets/images/fests/Quizzitch/1.jpeg",
+  },
+  {
+    imgsrc: "assets/images/fests/Quizzitch/2.jpeg",
+},
+{
+  imgsrc: "assets/images/fests/Quizzitch/3.jpeg",
+},
+{
+  imgsrc: "assets/images/fests/Quizzitch/4.jpeg",
+},
+{
+  imgsrc: "assets/images/fests/Quizzitch/5.jpeg",
+}
 ]
