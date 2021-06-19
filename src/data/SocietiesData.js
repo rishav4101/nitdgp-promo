@@ -233,7 +233,30 @@ const SocietiesData = [
         id: "8",
         imgsrc: "assets/images/societies/ieee.png",
         text: "The IEEE Student Branch, NIT Durgapur is a society of enthusiasts aimed at promoting research related activities in the campus. We are a direct handshake to IEEE, an international body that allows countless young researchers the opportunity to present & publish their innovations every year. Comprising of bright researchers, developers, speakers, and other contributors we are a society that welcomes in the era of better research prospects, in campus.",
-        link: "https://www.ieeesbnitdgp.com/"
+        link: "https://www.ieeesbnitdgp.com/",
+        array:[
+            {
+                imgsrc:"assets/images/societies/IEEE/1.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/IEEE/2.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/IEEE/3.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/IEEE/4.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/IEEE/5.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/IEEE/6.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/IEEE/7.jpeg"
+            }
+        ]
     },
     {
         id: "9",
@@ -245,31 +268,126 @@ const SocietiesData = [
         id: "10",
         imgsrc: "assets/images/societies/iste.png",
         text: "The Indian Society for Technical Education(ISTE) is the leading National Professional non-profit making Society for the Technical Education System in our country with the motto of Career Development of Teachers and Personality Development of Students and overall development of our Technical Education System operating in association with All India Council for Technical Education (AICTE) and other International Projects.",
-        link:"http://istenitdgp.com/"
+        link:"http://istenitdgp.com/",
+        array:[
+            {
+                imgsrc:"assets/images/societies/ISTE/1.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/ISTE/2.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/ISTE/3.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/ISTE/4.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/ISTE/5.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/ISTE/6.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/ISTE/7.jpeg"
+            },
+        ]
     },
     {
         id: "11",
         imgsrc: "assets/images/societies/lc.png",
         text:"Literary Circle is the official literary club of NIT Durgapur, which gives the college an extra dimension of creative expression in the midst of technical unilateralism. This club conducts Verve, the Literary cum Youth Festival of the college and the biggest of its kind in eastern India having successfully pulled off 14 editions of the same. Among other activities, the club is reputed for hosting the inter-college NITMUN, publishing annual magazine Deja Vu and YearBook and organising OpenMic and Literati year round.",
-        link:"http://www.lcnitd.com/"
+        link:"http://www.lcnitd.com/",
+        array:[
+            {
+                imgsrc:"assets/images/societies/LC/1.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/LC/2.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/LC/3.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/LC/4.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/LC/5.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/LC/6.jpeg"
+            }
+        ]
     },
     {
         id: "12",
         imgsrc: "assets/images/societies/mntc.png",
         text:" Maths N Tech Club is the official knowledge club of NIT Durgapur. MNTC holds several events and workshops based on Mathematics and latest Technologies. It publishes the Annual Technical Magazine, Anveshan. It conducts Aavishkar - The Tech Festival along with SAE and GLUG and ANK - The Maths Week.",
-        link: "http://www.mntc.co.in"
+        link: "http://www.mntc.co.in",
+        array:[
+            {
+                imgsrc:"assets/images/societies/MNTC/1.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/MNTC/2.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/MNTC/3.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/MNTC/4.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/MNTC/5.jpeg"
+            }
+        ]
+
     },
     {
         id: "13",
         imgsrc: "assets/images/societies/muc.jpg",
         text:"We are the official Music Club of NIT Durgapur. We bring the love we have for music to everyone in this college through live performances and the people outside the college through our page and YouTube channel. We perform both Eastern and Western genres of music.",
-        link: "https://www.facebook.com/MuC.NITD/"
+        link: "https://www.facebook.com/MuC.NITD/",
+        array:[
+            {
+                imgsrc:"assets/images/societies/MuC/1.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/MuC/2.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/MuC/3.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/MuC/4.jpeg"
+            }
+        ]
     },
     {
         id: "14",
         imgsrc: "assets/images/societies/prakriti.png",
         text:"We the People of Prakriti- The Environmental Club of NIT Durgapur, strive to make a difference and inculcate the seed of awareness and action in the minds of prospective engineers to make this environment a sustainable place for every living being. Our motto is to change the notion that Engineers do not care for environment into making every individual on campus, a GreenEngineer, who minimizes the risk of pollution that might be caused with new inventions or breakthrough researches in technology.",
         link:"http://www.prakriti.in.net",
+        array:[
+            {
+                imgsrc:"assets/images/societies/Prakriti/1.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Prakriti/2.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Prakriti/3.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Prakriti/4.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Prakriti/5.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/Prakriti/6.jpeg"
+            }
+        ]
     },
     {
         id: "15",
