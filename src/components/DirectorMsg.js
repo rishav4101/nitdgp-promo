@@ -1,6 +1,8 @@
 import React from "react";
 import { makeStyles } from "@material-ui/core/styles";
 import { Container } from '@material-ui/core';
+import { Link } from 'react-router-dom';
+import Button from "@material-ui/core/Button";
 
 
 const useStyles = makeStyles((theme)=>({
@@ -105,6 +107,14 @@ return(
           Prof. Anupam Basu<br />
           Director, NIT Durgapur
         </p>
+      </div>
+      <div style={{ textAlign: 'center', marginTop: 20, marginBottom: 20}}>
+        <Link to="/files/brochure.pdf" target="_blank" download>
+          <Button variant="contained"
+              style={{ backgroundColor: "#343f56", color: "white"}}>
+            Download Brochure
+          </Button>
+        </Link>
       </div>
       </Container>
 )
