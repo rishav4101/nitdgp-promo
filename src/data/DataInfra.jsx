@@ -61,12 +61,12 @@ const Datainfra = [
     },
     {
         id: "13",
-        name: "Chemistry Lab",
+        name: "Chemistry Laboratory",
         imgsrc: "assets/images/infra/lab3.jpeg"
     },
     {
         id: "14",
-        name: "Computer Lab",
+        name: "Computer Laboratory",
         imgsrc: "assets/images/infra/lab4.jpeg"
     },
     {
