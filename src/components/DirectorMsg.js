@@ -23,7 +23,7 @@ const useStyles = makeStyles((theme)=>({
       color: "white",
       padding:0,
       position: "relative",
-      height: "300px",
+      height: "330px",
     },
   },
   img: {
@@ -57,12 +57,12 @@ const useStyles = makeStyles((theme)=>({
       textAlign:"center",
     },
     [theme.breakpoints.up("md")]: {
-      padding: "10px",
+      padding: "2px",
       marginLeft: "10px",
-      marginTop: "10px",
-      marginBottom: "10px",
+      marginTop: "5px",
+      marginBottom: "2px",
       fontSize: "14px",
-      lineHeight: 1.3,
+      lineHeight: 1.2,
     }
   },
   head: {
@@ -92,18 +92,25 @@ return(
         </div>
         <img className={classes.img} alt="." src="assets/images/Director.jpg" />
         <p className={classes.text}>
-          "Contrary to popular belief, Lorem Ipsum is not simply random text. It
-          has roots in a piece of classical Latin literature from 45 BC, making it
-          over 2000 years old. Richard McClintock, a Latin professor at
-          Hampden-Sydney College in Virginia, looked up one of the more obscure
-          Latin words, consectetur, from a Lorem Ipsum passage, and going through
-          the cites of the word in classical literature, discovered the
-          undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33
-          of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by
-          Cicero, written in 45 BC. This book is a treatise on the theory of
-          ethics, very popular during the Renaissance. The first line of Lorem
-          Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section
-          1.10.32."<br /><br />
+          It is a matter of great pleasure to release the Information Brochure
+          of NIT Durgapur. This new brochure comes with a host of first-hand
+          knowledge about the institute. It not only highlights the academic
+          programmes operating on campus but also some of the most recent
+          achievements of the students, faculty members and the institute as a
+          whole on various national platforms. The academic programme curricula
+          have not been included in this brochure as they are dynamically
+          modified and kept posted up to date on the institute website.
+          The existing programme curricula gives a lot of flexibility and
+          opportunity to the aspiring students. This brochure fantastically
+          focuses on various academic / research facilities and relevant outputs,
+          which are of social importance. Campus facilities that inject life
+          into the system have also been nicely depicted in this booklet.
+          Lastly, it is noteworthy that NIT Durgapur has produced a large number
+          of highly reputed personalities and an honest attempt has been made so
+          as to inspire the student community.
+          <br />
+          I thank the students, faculty members and staff who taken their time out to give shape to this excellent brochure.
+          <br /><br />
           Prof. Anupam Basu<br />
           Director, NIT Durgapur
         </p>
