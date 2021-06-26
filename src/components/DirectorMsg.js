@@ -109,10 +109,10 @@ return(
           of highly reputed personalities and an honest attempt has been made so
           as to inspire the student community.
           <br />
-          I thank the students, faculty members and staff who taken their time out to give shape to this excellent brochure.
+          I thank the students, faculty members and staff who have taken their time out to give shape to this excellent brochure.
           <br /><br />
-          Prof. Anupam Basu<br />
-          Director, NIT Durgapur
+          <b>Prof. Anupam Basu<br />
+          Director, NIT Durgapur</b>
         </p>
       </div>
       <div style={{ textAlign: 'center', marginTop: 20, marginBottom: 20}}>
