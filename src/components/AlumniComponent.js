@@ -74,17 +74,17 @@ const AlumniList = [
   },
   {
     id: 10,
+    name: "Prof. Parthasarathi Mandal",
+    dgp_year: "1991, B.E., Civil Engg.",
+    photo: "assets/images/alumni/Parthasarathi_Mandal.PNG",
+    curr_post: "Professor,Dept. of Mechanical,Aerospace and Civil Engg., University of Manchester,UK"
+  },
+  {
+    id: 11,
     name: "Mr. Subrata Dutta",
     dgp_year: "1991, B.E., Civil Engg.",
     photo: "assets/images/alumni/Subrata_Dutta.PNG",
     curr_post: "Vice President(Marketing), SBU-Head, Everest Industries, New Delhi"
-  },
-  {
-    id: 11,
-    name: "Prof. Parthasarathi mandal",
-    dgp_year: "1991, B.E., Civil Engg.",
-    photo: "assets/images/alumni/Parthasarathi_Mandal.PNG",
-    curr_post: "Professor,Dept. of Mechanical,Aerospace and Civil Engg., University of Manchester,UK"
   },
   {
     id: 12,
@@ -108,7 +108,6 @@ const AlumniList = [
     dgp_year: "1996, B.E., Chemical Engg.",
     photo: "assets/images/alumni/Mou_Sen.PNG",
     curr_post: "Joint Director, Directorate of MSME, Govt. of West Bengal",
-    bcolor: "pink"
   },
   {
     id: 15,
@@ -119,24 +118,24 @@ const AlumniList = [
   },
   {
     id: 16,
-    name: "Prof. Samrat Choudhury ",
-    dgp_year: "1998, B.E., Metullurgical and Materials Engg.",
-    photo: "assets/images/alumni/Samrat_Choudhury.PNG",
-    curr_post: "Assistant Professor, University of Idaho, USA"
-  },
-  {
-    id: 17,
     name: "Mr. Anirban Sengupta",
     dgp_year: "1998, B.E., Mechanical Engg.",
     photo: "assets/images/alumni/Anirban_Sengupta.PNG",
     curr_post: "Head-Digital Application Services, Wipro"
   },
   {
-    id: 18,
+    id: 17,
     name: "Mr. Niraj kumar",
     dgp_year: "1998, B.E., Metullurgical and Materials Engg.",
     photo: "assets/images/alumni/Niraj_Kumar.PNG",
     curr_post: "Delivery Project Executive-IBM, USA"
+  },
+  {
+    id: 18,
+    name: "Prof. Samrat Choudhury ",
+    dgp_year: "1998, B.E., Metullurgical and Materials Engg.",
+    photo: "assets/images/alumni/Samrat_Choudhury.PNG",
+    curr_post: "Assistant Professor, University of Idaho, USA"
   },
   {
     id: 19,
@@ -195,10 +194,10 @@ const Alumni = () => {
                       {alumni.name}
                     </Typography>
                     <Typography variant="caption" color="textSecondary" style={{lineHeight:1}} component="p">
-                      <small>({alumni.dgp_year})<br /> {alumni.award? alumni.award : null}</small>
+                      <small>({alumni.dgp_year})</small>
                     </Typography>
                     <Typography variant="body3" style={{color: "#343f56", lineHeight:1, marginTop: "10px", fontSize: 14}} component="p">
-                      {alumni.curr_post}
+                      <b>{alumni.award? alumni.award : null}</b><br />{alumni.curr_post}
                     </Typography>
                   </CardContent>
               </Card>
