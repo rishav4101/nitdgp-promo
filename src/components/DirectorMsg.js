@@ -116,7 +116,7 @@ return(
         </p>
       </div>
       <div style={{ textAlign: 'center', marginTop: 20, marginBottom: 20}}>
-        <Link to="/files/brochure.pdf" target="_blank" download>
+        <Link to="/files/Information_Brochure_2021-22.pdf" target="_blank" download>
           <Button variant="contained"
               style={{ backgroundColor: "#343f56", color: "white"}}>
             Download Brochure

@@ -57,7 +57,7 @@ export default function ContentCard(props) {
     ContentCardText: {
       textDecoration: "none",
       width: "100%",
-      textAlign: "left",
+      textAlign: "justify",
       padding: "20px",
       color: "#343f56",
     },

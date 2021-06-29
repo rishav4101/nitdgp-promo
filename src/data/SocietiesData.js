@@ -72,7 +72,7 @@ const SocietiesData = [
     {
         id: "3",
         imgsrc: "assets/images/societies/DC.jpeg",
-        text: "Dance Club is the official dance club of Nitdgp. We not only perform in Independence Day, Republic Day and other college fests but also participate in inter college fests like spring fest(iitkgp) and carpe diem(iim Calcutta) and have brought medals for our college. We believe in diversity hence we support and perform all dance forms.",
+        text: "Dance Club is the official dance club of NIT Durgapur. We not only perform in Independence Day, Republic Day and other college fests but also participate in inter college fests like Spring Fest (IIT Kharagpur) and Carpe Diem (IIM Calcutta) and have brought medals for our college. We believe in diversity hence we support and perform all dance forms.",
         link: "https://www.facebook.com/darpan.nitdgp/",
         array:[
             {
@@ -262,7 +262,18 @@ const SocietiesData = [
         id: "9",
         imgsrc: "assets/images/societies/iimstudentchapter.jpg",
         text: "The Student affiliated chapter of The Indian Institute of Metals was passed through council Meeting No: 342/III/2019-20 on Saturday,22nd November 2020 held at Kaladham Conference Hall, Vidyanagar in presence of president, Dr. U Kamachi Mudali [2019-20 Council Year] and other council members as per Point 6b resolution.",
-        link:"https://nitdgp.ac.in/p/iim-student-chapter"
+        link:"https://nitdgp.ac.in/p/iim-student-chapter",
+        array:[
+            {
+                imgsrc:"assets/images/societies/IIM/1.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/IIM/3.jpeg"
+            },
+            {
+                imgsrc:"assets/images/societies/IIM/4.jpeg"
+            },
+        ]
     },
     {
         id: "10",
