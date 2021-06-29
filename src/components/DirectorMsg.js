@@ -61,8 +61,8 @@ const useStyles = makeStyles((theme)=>({
       marginLeft: "10px",
       marginTop: "5px",
       marginBottom: "2px",
-      fontSize: "14px",
-      lineHeight: 1.2,
+      fontSize: "13px",
+      lineHeight: 1.5,
     }
   },
   head: {
@@ -93,7 +93,7 @@ return(
         <img className={classes.img} alt="." src="assets/images/Director.jpg" />
         <p className={classes.text}>
           It is a matter of great pleasure to release the Information Brochure
-          of NIT Durgapur. This new brochure comes with a host of first-hand
+          of NIT Durgapur for the academic session 2021-22. This new brochure comes with a host of first-hand
           knowledge about the institute. It not only highlights the academic
           programmes operating on campus but also some of the most recent
           achievements of the students, faculty members and the institute as a
@@ -108,8 +108,6 @@ return(
           Lastly, it is noteworthy that NIT Durgapur has produced a large number
           of highly reputed personalities and an honest attempt has been made so
           as to inspire the student community.
-          <br />
-          I thank the students, faculty members and staff who have taken their time out to give shape to this excellent brochure.
           <br /><br />
           <b>Prof. Anupam Basu<br />
           Director, NIT Durgapur</b>
