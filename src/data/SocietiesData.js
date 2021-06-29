@@ -268,6 +268,9 @@ const SocietiesData = [
                 imgsrc:"assets/images/societies/IIM/1.jpeg"
             },
             {
+                imgsrc:"assets/images/societies/IIM/2.jpeg"
+            },
+            {
                 imgsrc:"assets/images/societies/IIM/3.jpeg"
             },
             {
